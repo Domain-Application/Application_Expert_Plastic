@@ -1,0 +1,16 @@
+MGRID g(&m_grid,sub,0,15);
+g.SetTitle("No",285,0);
+g.SetTitle("Date",990,1);
+g.SetTitle("Time",720,1);
+g.SetTitle("1st Wt",690,7);
+g.SetTitle("2nd Wt",690,7);
+g.SetTitle("Gross Wt",765,7);
+g.SetTitle("Product",690,1);
+g.SetTitle("Description",1890,1);
+g.SetTitle("%",345,1);
+g.SetTitle("Moisture",735,1);
+g.SetTitle("%",405,1);
+g.SetTitle("Outhrow",720,1);
+g.SetTitle("Nett Wt",735,7);
+g.SetTitle("U/Price",690,7);
+g.SetTitle("Amount",780,7);

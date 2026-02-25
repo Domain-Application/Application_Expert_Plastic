@@ -1,0 +1,30 @@
+
+
+                        E-1RECEIVING TICKET-0F
+
+SUPPLIER   :E@SUPPLIERF TICKET NO. : ESR@TICKETF
+            @ADD1 DATE OF TICKET: E@DATEF
+            @ADD2 A/C CODE   : @CREDITOR
+            @ADD3 VEHICLE NO : E@LORRYF
+PAID BY    : @PAYNAME        D/O NO     : E@DOF
+TRANSPORTER:E@TRANSPF D/O DATE   : E@DODATEF M0
+------------------------------------------------------------------------------------------------
+  PRODUCT DESCRIPTION       <------------  W E I G H T   ( K G )  ------------>
+NO                               1st      2nd    Gross MOIST.    OT      NET WT  PRICE  AMT (RM)
+------------------------------------------------------------------------------------------------
+@NO1 @SCRAP1 @Y1 @Y11 @G1 @M1 @O1  @W1 @P1 @V1
+@NO2 @SCRAP2 @Y2 @Y22 @G2 @M2 @O2  @W2 @P2 @V2
+@NO3 @SCRAP3 @Y3 @Y33 @G3 @M3 @O3  @W3 @P3 @V3
+@NO4 @SCRAP4 @Y4 @Y44 @G4 @M4 @O4  @W4 @P4 @V4
+@NO5 @SCRAP5 @Y5 @Y55 @G5 @M5 @O5  @W5 @P5 @V5
+@NO6 @SCRAP6 @Y6 @Y66 @G6 @M6 @O6  @W6 @P6 @V6
+@NO7 @SCRAP7 @Y7 @Y77 @G7 @M7 @O7  @W7 @P7 @V7
+@NO8 @SCRAP8 @Y8 @Y88 @G8 @M8 @O8  @W8 @P8 @V8
+------------------------------------------------------------------------------------------------
+REMARKS:E@REMARKSF Total:E@WASTAGEF E@OTF  E@NETF        E@RMF
+------------------------------------------------------------------------------------------------
+2
+P
+_______________________  _______________________   _______________________
+ISSUED BY                RECEIVED BY               @DRNAME
+@USER

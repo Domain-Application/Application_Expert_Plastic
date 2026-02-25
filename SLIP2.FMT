@@ -1,0 +1,30 @@
+
+
+                      E-1STORE RECEIPT-0F
+
+STORE TICKET NO.:E@TICKETF                      DATE OF TICKET: E@DATEF
+VEHICLE NO :E@LORRYF                                   TRAILER: E@TRAILERF
+D/O NO     :E@DOF                 INSPECTION BILL:E@CONTNOF
+SUPPLIER   :E@SUPPLIERF    A/C CODE: @CREDITOR
+TRANSPORTER:E@TRANSPFM0
++-----+----------+-------------------------------+----------+----------+-------------+
+| NO  | TIME IN  |         PRODUCT  NAME         |    NETT  |  U/PRICE | AMOUNT (RM) |
++-----+----------+-------------------------------+----------+----------+-------------+
+|  @NO1  | @TIME1 | @SCRAP1 |  @W1  | @P1 |  @V1  |
+|  @NO2  | @TIME2 | @SCRAP2 |  @W2  | @P2 |  @V2  |
+|  @NO3  | @TIME3 | @SCRAP3 |  @W3  | @P3 |  @V3  |
+|  @NO4  | @TIME4 | @SCRAP4 |  @W4  | @P4 |  @V4  |
+|  @NO5  | @TIME5 | @SCRAP5 |  @W5  | @P5 |  @V5  |
+|  @NO6  | @TIME6 | @SCRAP6 |  @W6  | @P6 |  @V6  |
+|  @NO7  | @TIME7 | @SCRAP7 |  @W7  | @P7 |  @V7  |
+|  @NO8  | @TIME8 | @SCRAP8 |  @W8  | @P8 |  @V8  |
++-----+----------+-------------------------------+----------+----------+-------------+
+|                                       Total:   |  E@NETF  |          |  E@RMF  |
++------------------------------------------------------------------------------------+
+REMARKS :E@REMARKSF
+2
+P
+
+_______________________
+WB CLERK / SUPERVISOR
+@USER

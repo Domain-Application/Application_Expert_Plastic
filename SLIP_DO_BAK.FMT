@@ -1,0 +1,30 @@
+
+                           E-1DOCKET-0F
+
+TICKET  NO.:E@TICKETF                       DATE OF TICKET: E@DATEF
+VEHICLE NO :E@LORRYF                                   TRAILER: E@TRAILERF
+D/O NO     :E@DOF                 INSPECTION BILL:E@CONTNOF
+SUPPLIER   :E@SUPPLIERF    A/C CODE: @CREDITOR
+TRANSPORTER:E@TRANSPF    GST NO : @GSTNO2M0
++-----+-------+--------------------------+-----------------------------------------------------+
+|     |       |                          |            W E I G H T    ( K G )                   |
+|  NO | TIME  |      PRODUCT NAME        +-----------------------------------------------------+
+|     |       |                          | 1st    |  2nd   | Gross  | MOIST. |  OT    |  NETT  |
++-----+-------+--------------------------+--------+--------+--------+--------+--------+--------+
+|  @NO1  | @TIME1 | @SCRAP1| @Y1 | @Y11 | @G1 | @M1 | @O1 | @W1 |
+|  @NO2  | @TIME2 | @SCRAP2| @Y2 | @Y22 | @G2 | @M2 | @O2 | @W2 |
+|  @NO3  | @TIME3 | @SCRAP3| @Y3 | @Y33 | @G3 | @M3 | @O3 | @W3 |
+|  @NO4  | @TIME4 | @SCRAP4| @Y4 | @Y44 | @G4 | @M4 | @O4 | @W4 |
+|  @NO5  | @TIME5 | @SCRAP5| @Y5 | @Y55 | @G5 | @M5 | @O5 | @W5 |
+|  @NO6  | @TIME6 | @SCRAP6| @Y6 | @Y66 | @G6 | @M6 | @O6 | @W6 |
+|  @NO7  | @TIME7 | @SCRAP7| @Y7 | @Y77 | @G7 | @M7 | @O7 | @W7 |
+|  @NO8  | @TIME8 | @SCRAP8| @Y8 | @Y88 | @G8 | @M8 | @O8 | @W8 |
++-----+-------+--------------------------+--------+--------+--------+--------+--------+--------+
+|  REMARKS :E@REMARKSF         Total: | E@WASTAGEF | E@OTF | E@NETF |
++-----+-------+--------------------------+--------+--------+--------+--------+--------+--------+
+2
+P
+
+_______________________
+WB CLERK / SUPERVISOR
+@USER

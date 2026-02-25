@@ -1,0 +1,26 @@
+
+ME%Title%F
+g@COADD1
+@COADD2
+@COADD3
+@GSTNO
+M
+                                -1INVOICE-0
+
+Ticket No  : @TICKET                                          Ticket Date: @DATE
+vehicle No : E@LORRYF
+A/C Name   : E@ACNAMEF
+Remarks    : @REM1
+             @REM2
+-----------------------------------------------------------------------------------------
+ Gross    : @GROSS		Tare	: @TARE		NET : @NET
+ Charge   : RM@CHARGE
+ Tax Code : @TAXCODE @ @PERCEN%
+ Tax      : RM@TAXAMT
+ Total    : RME@SUBTOTALF
+
+
+
+ _____________________________     ______________________       _________________________
+ DRIVER'S SIGNATURE                ISSUED BY                    RECEIVED BY
+

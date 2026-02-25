@@ -1,0 +1,28 @@
+#!
+#0Mt
+#&E%Title%F
+#&@COADD1    R/N No    : E@TICKETF
+#&@COADD2    Vehicle No: @LORRY
+#&@COADD3    D/O No    : @DO
+#&                                                                          Date      : @DATE
+#&From: @NAME
+#&      @ADD1
+#&      @ADD2
+#&      @ADD3
+#0                                 -1RECEIVING INVOICE-0
+#0
+#0                                                          Out      Nett
+#0-1Time    Product Description       First  Second Moisture  Throw    Wt(P/T)   P/M.TON      Amount-0
+#R%s   %s %s %s    %s   %s   %s  %s   %s
+#G                                                                   =============================
+#G                                                             Total:E%f Kgs       RM:%fF
+#G                                                                   =============================
+#&  Remark : @REMARKS
+#&           @REM2
+#0
+#0
+#0
+#0 _____________________________     ______________________       _________________________
+#0 DRIVER'S SIGNATURE                ISSUED BY                    RECEIVED BY
+## @DNAME
+#E

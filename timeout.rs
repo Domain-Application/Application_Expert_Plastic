@@ -1,0 +1,10 @@
+0 17/04/2015 17:12:48 select top 1 [first] from [RDATA] where [TICKET]='NEW' and (pt <> 'RA         ' or pt is null) order by [sqno] desc
+0 07/05/2015 16:53:38 SELECT COLUMN_NAME FROM Information_schema.Key_column_usage WHERE TABLE_NAME = 'LogSqlErr'
+0 07/05/2015 16:53:39 SELECT COLUMN_NAME FROM Information_schema.Key_column_usage WHERE TABLE_NAME = 'LogSqlErr'
+0 07/05/2015 16:53:39 SELECT COLUMN_NAME FROM Information_schema.Key_column_usage WHERE TABLE_NAME = 'LogSqlErr'
+0 07/05/2015 16:53:39 SELECT COLUMN_NAME FROM Information_schema.Key_column_usage WHERE TABLE_NAME = 'LogSqlErr'
+0 07/05/2015 16:53:40 SELECT COLUMN_NAME FROM Information_schema.Key_column_usage WHERE TABLE_NAME = 'LogSqlErr'
+0 07/05/2015 16:53:40 SELECT COLUMN_NAME FROM Information_schema.Key_column_usage WHERE TABLE_NAME = 'LogSqlErr'
+0 04/01/2016 09:16:30 select * from [RptReportName] where rpt = 'psumpt.rpt'
+0 16/01/2016 10:00:45 select max(SQNO) from [ddata] where [TICKET]=N'009238'
+0 18/01/2016 13:08:10 select EditorPortNo from ticketno where [Recordset]='domain'

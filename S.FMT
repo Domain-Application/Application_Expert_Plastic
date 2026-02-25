@@ -1,0 +1,30 @@
+2C!M
+E@TITLEFP
+@COADD1
+@COADD2
+@COADD3
+
+
+Ticket No  : @TICKET                             Ticket Date: @DATE
+                                                       Time: @TIME
+
+vehicle No : E@LORRYF
+
+Gross Weight : E@FIRSTF (Kg)
+
+Tare Weight  : E@SECONDF (Kg)
+
+Net Weight   : E@NETF (Kg)
+
+Charge (RM): @CHARGE
+
+Remarks    : @REM1
+             @REM2
+             @REM3
+
+
+
+M
+ _____________________________     ______________________       _________________________
+ DRIVER'S SIGNATURE                RECEIVED BY                   ISSUED BY
+P

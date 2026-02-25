@@ -1,0 +1,3147 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+#include <tan.h>
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "#include <tan.h>\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif\r\n"
+    "#include ""res\\menu.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#include ""afxprint.rc""       // printing/print preview resources\r\n"
+    "#endif\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// 24
+//
+
+1                       24      DISCARDABLE     "res\\default1.bin"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MENUTYPE            ICON    DISCARDABLE     "res\\menuDoc.ico"
+IDR_MAINFRME            ICON    DISCARDABLE     "res\\icon3.ico"
+IDI_BROWSE              ICON    DISCARDABLE     "res\\icon6.ico"
+IDI_ICON6               ICON    DISCARDABLE     "res\\14.ico"
+IDI_PALM                ICON    DISCARDABLE     "res\\17.ico"
+IDI_ICON7               ICON    DISCARDABLE     "RES\\money015.ico"
+IDI_ICON8               ICON    DISCARDABLE     "RES\\Truck02e.ico"
+IDI_VEHICLE_GW          ICON    DISCARDABLE     "res\\icon9.ico"
+IDI_VEHICLE_TW          ICON    DISCARDABLE     "res\\ico00001.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP  MOVEABLE PURE   "res\\Toolbar.bmp"
+IDB_BITMAP3             BITMAP  DISCARDABLE     "res\\truck.bmp"
+IDB_HOTBAR              BITMAP  DISCARDABLE     "res\\bmp00001.bmp"
+IDB_BITMAP7             BITMAP  DISCARDABLE     "RES\\hotbar.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR DISCARDABLE  40, 51
+BEGIN
+    BUTTON      ID00021
+    BUTTON      ID00022
+    SEPARATOR
+    BUTTON      ID00023
+    BUTTON      ID00031
+    BUTTON      ID00032
+    BUTTON      ID00033
+    BUTTON      ID00004
+    BUTTON      IDD_EXITPROGRAM
+    BUTTON      ID00011
+    BUTTON      ID00012
+    BUTTON      ID00013
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINMENU MENU DISCARDABLE 
+BEGIN
+    POPUP "&1. Weighing"
+    BEGIN
+        MENUITEM "1&1. Receiving",              ID00011
+        MENUITEM "1&2. Despatch",               ID00012
+        MENUITEM "1&3. Public",                 ID00013
+    END
+    POPUP "&2. Adjustment/Invoicing"
+    BEGIN
+        MENUITEM "2&1. Adjustment Entry",       ID00021
+        MENUITEM "2&2. Purchase Invoice",       ID00022
+        MENUITEM "2&3. Sales Invoice",          ID00023
+    END
+    POPUP "&3. Table"
+    BEGIN
+        MENUITEM "3&1. Customer",               ID00031
+        MENUITEM "3&2. Supplier",               ID00032
+        MENUITEM "3&3. Item",                   ID00033
+        MENUITEM "3&4. I/C No.",                ID00034
+        MENUITEM "3&5. Driver",                 ID00035
+        MENUITEM "3&6. Transporter",            ID00036
+        MENUITEM "3&7. Vehicle",                ID00037
+        POPUP "3&8. more"
+        BEGIN
+            MENUITEM "38&1. Payment Type",          ID00381
+            MENUITEM "38&2. Function Code",         ID00382
+            MENUITEM "38&3. Reason",                ID00383
+            MENUITEM "38&4. Tender",                ID00384
+            MENUITEM "38&5. Gender",                ID00385
+            MENUITEM "38&6. Nationality",           ID00386
+            MENUITEM "38&7. TType",                 ID00387
+            MENUITEM "38&8. Bussiness Type",        ID00388
+            MENUITEM "38&9. Risk Type",             ID00389
+        END
+        POPUP "3&9. more2"
+        BEGIN
+            MENUITEM "39&1. Twin No",               ID00391
+        END
+    END
+    MENUITEM "&4. Report",                  ID00004
+    POPUP "&5. Utility"
+    BEGIN
+        MENUITEM "5&1. Set Password",           ID00051
+        MENUITEM "5&2. Company Profile",        ID00052
+        MENUITEM "5&3. Operator Information",   ID00053
+        MENUITEM "5&4. Backup Data",            ID00054
+        MENUITEM "5&5. Create new image database", ID00055
+        MENUITEM "5&6. Reset Data",             ID00056
+        MENUITEM "5&7. Export Purchase Data To AP", ID00057
+        MENUITEM "5&8. Period Control",         ID00058
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS PRELOAD MOVEABLE PURE 
+BEGIN
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL, NOINVERT
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL, NOINVERT
+    "P",            ID_FILE_PRINT,          VIRTKEY, CONTROL, NOINVERT
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL, NOINVERT
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL, NOINVERT
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT, NOINVERT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT, NOINVERT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY, NOINVERT
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT, NOINVERT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT, NOINVERT
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL, NOINVERT
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL, NOINVERT
+END
+
+IDR_ACCELERATOR1 ACCELERATORS DISCARDABLE 
+BEGIN
+    VK_NEXT,        ID_GOTO_NEXT,           VIRTKEY, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ICNO DIALOGEX 0, 0, 609, 400
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "ICNO"
+MENU 256
+FONT 10, "Tahoma", 0, 0, 0x1
+BEGIN
+    LTEXT           "&IC / Passport No",IDC_STATIC1,16,35,62,12
+    EDITTEXT        IDC_EDIT1,83,35,78,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    ES_READONLY | WS_VSCROLL
+    LTEXT           "&Name",IDC_STATIC2,16,49,62,11
+    EDITTEXT        IDC_EDIT2,83,49,225,12,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "&Gender",IDC_STATIC3,16,63,62,11,SS_NOTIFY,
+                    WS_EX_ACCEPTFILES
+    EDITTEXT        IDC_EDIT3,83,63,50,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    ES_READONLY | WS_VSCROLL
+    LTEXT           "&Date Of Birth",IDC_STATIC4,176,63,45,11
+    EDITTEXT        IDC_EDIT4,236,63,71,12,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "&Place Of Birth",IDC_STATIC5,16,77,62,11
+    EDITTEXT        IDC_EDIT5,83,77,71,12,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "&Ethnicity",IDC_STATIC6,176,77,45,11
+    EDITTEXT        IDC_EDIT6,236,77,71,12,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "&Citizenship",IDC_STATIC7,16,91,62,11
+    EDITTEXT        IDC_EDIT7,83,91,71,12,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "&Religion",IDC_STATIC8,176,91,45,11
+    EDITTEXT        IDC_EDIT8,236,91,71,12,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "Residential &Address",IDC_STATIC9,313,38,114,10
+    EDITTEXT        IDC_EDIT9,313,49,225,12,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT10,313,63,225,12,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT11,313,77,225,12,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "&Town",IDC_STATIC15,16,105,62,11
+    EDITTEXT        IDC_EDIT15,83,105,71,12,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "&Post code",IDC_STATIC16,176,105,45,11
+    EDITTEXT        IDC_EDIT16,236,105,71,12,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "&State",IDC_STATIC17,16,119,62,11
+    EDITTEXT        IDC_EDIT17,83,119,71,12,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "Date of Issue",IDC_STATIC18,16,133,62,11
+    EDITTEXT        IDC_EDIT18,83,133,71,12,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "&Old IC Number",IDC_STATIC20,16,149,62,12
+    EDITTEXT        IDC_EDIT20,83,149,71,12,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "&Contact No 1",IDC_STATIC21,16,164,62,11
+    EDITTEXT        IDC_EDIT21,83,164,71,12,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "&Fax Number",IDC_STATIC23,312,164,41,11
+    EDITTEXT        IDC_EDIT23,357,164,71,12,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "&Ttype",IDC_STATIC27,16,195,62,11,SS_NOTIFY,
+                    WS_EX_ACCEPTFILES
+    EDITTEXT        IDC_EDIT27,83,195,50,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    ES_READONLY | WS_VSCROLL
+    LTEXT           "&Ttype",IDC_LABEL27,138,197,175,10
+    LTEXT           "&P/C Code",IDC_STATIC28,16,209,62,11,SS_NOTIFY,
+                    WS_EX_ACCEPTFILES
+    EDITTEXT        IDC_EDIT28,83,209,50,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    ES_READONLY | WS_VSCROLL
+    LTEXT           "&Pccode",IDC_LABEL28,138,211,175,10
+    LTEXT           "",IDC_PREVIEW,313,195,225,133,NOT WS_VISIBLE,
+                    WS_EX_STATICEDGE
+    LTEXT           "Occupation",IDC_STATIC29,16,223,62,11,SS_NOTIFY,
+                    WS_EX_ACCEPTFILES
+    EDITTEXT        IDC_EDIT29,83,223,50,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    ES_READONLY | WS_VSCROLL
+    LTEXT           "Occupation",IDC_LABEL29,138,225,175,10
+    LTEXT           "Bussiness Type",IDC_STATIC30,16,237,62,11,SS_NOTIFY,
+                    WS_EX_ACCEPTFILES
+    EDITTEXT        IDC_EDIT30,83,237,50,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    ES_READONLY | WS_VSCROLL
+    LTEXT           "Bussiness Type",IDC_LABEL30,138,239,175,10
+    LTEXT           "Alert Message",IDC_STATIC32,16,264,62,11
+    EDITTEXT        IDC_EDIT32,83,265,225,25,ES_MULTILINE | ES_AUTOHSCROLL | 
+                    ES_READONLY
+    LTEXT           "Risk Type",IDC_STATIC33,16,292,62,11,SS_NOTIFY,
+                    WS_EX_ACCEPTFILES
+    EDITTEXT        IDC_EDIT33,83,293,50,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    ES_READONLY | WS_VSCROLL
+    LTEXT           "Risk Type",IDC_LABEL33,138,293,120,10
+    LTEXT           "Payment Type",IDC_STATIC34,16,305,62,14,SS_NOTIFY,
+                    WS_EX_ACCEPTFILES
+    EDITTEXT        IDC_EDIT34,83,306,50,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    ES_READONLY | WS_VSCROLL
+    LTEXT           "Payment Type",IDC_LABEL34,138,306,120,10
+    LTEXT           "Twin Code",IDC_STATIC35,16,319,62,12,SS_NOTIFY,
+                    WS_EX_ACCEPTFILES
+    EDITTEXT        IDC_EDIT35,83,319,50,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    ES_READONLY | WS_VSCROLL
+    LTEXT           "Nationality",IDC_STATIC36,176,149,43,12,SS_NOTIFY,
+                    WS_EX_ACCEPTFILES
+    EDITTEXT        IDC_EDIT36,236,149,71,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    ES_READONLY | WS_VSCROLL
+    LTEXT           "nationality",IDC_LABEL36,313,149,224,12
+    LTEXT           "Remarks",IDC_STATIC37,16,334,62,11
+    EDITTEXT        IDC_EDIT37,83,335,452,32,ES_MULTILINE | ES_AUTOHSCROLL | 
+                    ES_READONLY
+    LTEXT           "Mailing &Address",IDC_STATIC,312,94,156,10
+    EDITTEXT        IDC_EDIT12,313,105,225,12,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT13,313,119,225,12,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT14,313,133,225,12,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "Date of Expiry",IDC_STATIC19,176,133,45,11
+    EDITTEXT        IDC_EDIT19,236,133,71,12,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "&Employer",IDC_STATIC31,16,250,62,11
+    EDITTEXT        IDC_EDIT31,83,251,225,12,ES_AUTOHSCROLL | ES_READONLY
+    ICON            2532,IDC_STATIC,155,162,20,20
+    PUSHBUTTON      "Same as mailling address",IDC_BUTTON2,446,34,93,14
+    LTEXT           "&Contact No 2",IDC_STATIC22,176,164,55,11
+    EDITTEXT        IDC_EDIT22,236,164,71,12,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "&Email Address",IDC_STATIC24,16,178,62,11
+    EDITTEXT        IDC_EDIT24,83,178,225,12,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "Bank",IDC_STATIC25,312,178,40,12,SS_NOTIFY,
+                    WS_EX_ACCEPTFILES
+    EDITTEXT        IDC_EDIT25,357,178,71,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    ES_READONLY | WS_VSCROLL
+    LTEXT           "&A/C No",IDC_STATIC26,431,178,26,11
+    EDITTEXT        IDC_EDIT26,467,178,71,12,ES_AUTOHSCROLL | ES_READONLY
+END
+
+IDD_AskPrintMode DIALOG DISCARDABLE  0, 0, 261, 138
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Please select print"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Print Weiging Ticket",IDOK,19,25,164,26
+    PUSHBUTTON      "Print Invoice",IDC_BUTTON2,19,58,164,26
+    PUSHBUTTON      "Print Weiging Ticket and  Invoice",IDC_BUTTON3,19,91,
+                    164,26
+    CONTROL         "1 item only",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | 
+                    BS_LEFTTEXT | NOT WS_VISIBLE | WS_DISABLED | WS_TABSTOP,
+                    191,36,49,10
+END
+
+IDD_TAXCODE DIALOGEX 0, 0, 600, 800
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | 
+    WS_CAPTION | WS_SYSMENU
+CAPTION "taxcode"
+MENU 256
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    LTEXT           "&Code",IDC_STATIC1,12,39,75,11
+    EDITTEXT        IDC_EDIT1,90,40,60,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    ES_READONLY | WS_VSCROLL
+    LTEXT           "&Description",IDC_STATIC2,12,53,75,11
+    EDITTEXT        IDC_EDIT2,90,54,300,20,ES_MULTILINE | ES_AUTOHSCROLL | 
+                    ES_READONLY
+    LTEXT           "&Percen",IDC_STATIC3,12,77,75,11
+    EDITTEXT        IDC_EDIT3,90,78,50,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_READONLY
+    LTEXT           "&Tax grp",IDC_STATIC4,12,91,75,11,SS_NOTIFY,
+                    WS_EX_ACCEPTFILES
+    EDITTEXT        IDC_EDIT4,90,92,60,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    ES_READONLY | WS_VSCROLL
+    LTEXT           "&Tax grp",IDC_LABEL4,140,92,200,10
+    LTEXT           "&Remark",IDC_STATIC5,12,105,75,11
+    EDITTEXT        IDC_EDIT5,90,106,225,12,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "&G/L Code",IDC_STATIC6,12,119,75,11,SS_NOTIFY,
+                    WS_EX_ACCEPTFILES
+    EDITTEXT        IDC_EDIT6,90,120,78,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    ES_READONLY | WS_VSCROLL
+    LTEXT           "&G/L Code",IDC_LABEL6,158,120,240,10
+    LTEXT           "&Glcode2",IDC_STATIC7,12,133,75,11,SS_NOTIFY,
+                    WS_EX_ACCEPTFILES
+    EDITTEXT        IDC_EDIT7,90,134,78,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    ES_READONLY | WS_VSCROLL
+    LTEXT           "&Glcode2",IDC_LABEL7,158,134,240,10
+    LTEXT           "&Tax type",IDC_STATIC8,12,147,75,11
+    EDITTEXT        IDC_EDIT8,90,148,9,12,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "&Gst03",IDC_STATIC9,12,161,75,11,SS_NOTIFY,
+                    WS_EX_ACCEPTFILES
+    EDITTEXT        IDC_EDIT9,90,162,60,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    ES_READONLY | WS_VSCROLL
+    LTEXT           "&Gst03",IDC_LABEL9,140,162,80,10
+    CONTROL         "Inactive",IDC_EDIT10,"Button",BS_AUTOCHECKBOX | 
+                    BS_LEFTTEXT | WS_TABSTOP,13,175,84,10
+END
+
+IDD_GLCODE DIALOGEX 0, 0, 403, 250
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | 
+    WS_CAPTION | WS_SYSMENU
+CAPTION "GL CODE DATA MAINTENANCE"
+MENU 256
+FONT 10, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    LTEXT           "&G/L Code",IDC_STATIC1,36,49,37,12
+    EDITTEXT        IDC_EDIT1,88,49,84,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    WS_VSCROLL
+    LTEXT           "&A/C Title",IDC_STATIC2,36,85,40,12
+    EDITTEXT        IDC_EDIT2,88,85,237,12,ES_AUTOHSCROLL
+    LTEXT           "G/L &Type",IDC_STATIC,36,157,47,12
+    EDITTEXT        IDC_EDIT4,88,157,19,12,ES_UPPERCASE | ES_AUTOHSCROLL
+    LTEXT           "&G/L Group",IDC_STATIC3,36,121,47,12,SS_NOTIFY,
+                    WS_EX_ACCEPTFILES
+    EDITTEXT        IDC_EDIT3,88,121,50,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    WS_VSCROLL
+    LTEXT           "Glgroup",IDC_LABEL3,143,121,200,12
+    LTEXT           "<B>alance Sheet     <I>ncome Statement",IDC_STATIC,133,
+                    157,160,8
+    LTEXT           "&Product Type",IDC_STATIC,36,195,54,12
+    EDITTEXT        IDC_EDIT5,88,195,19,12,ES_UPPERCASE | ES_AUTOHSCROLL
+END
+
+IDD_GLGROUP DIALOGEX 0, 0, 354, 230
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | 
+    WS_CAPTION | WS_SYSMENU
+CAPTION "GL GROUP DATA MAINTENANCE"
+MENU 256
+FONT 10, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    LTEXT           "&G/L Group",IDC_STATIC1,39,51,43,12
+    EDITTEXT        IDC_EDIT1,89,51,50,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    WS_VSCROLL
+    LTEXT           "&Description",IDC_STATIC2,39,75,44,12
+    EDITTEXT        IDC_EDIT2,89,75,150,12,ES_AUTOHSCROLL
+    LTEXT           "&Type",IDC_STATIC3,39,99,20,12
+    EDITTEXT        IDC_EDIT3,89,99,19,12,ES_UPPERCASE | ES_AUTOHSCROLL
+    LTEXT           "&Sequence No.",IDC_STATIC,39,123,47,12
+    EDITTEXT        IDC_EDIT4,89,123,37,12,ES_RIGHT | ES_AUTOHSCROLL
+    LTEXT           "<B>alance Sheet     <I>ncome Statement",IDC_STATIC,121,
+                    101,160,8
+    LTEXT           "PL Type",IDC_STATIC,40,147,47,12
+    EDITTEXT        IDC_EDIT5,90,147,37,12,ES_RIGHT | ES_AUTOHSCROLL
+    LTEXT           "&Acc Category",IDC_STATIC6,40,169,43,10,SS_NOTIFY,
+                    WS_EX_ACCEPTFILES
+    EDITTEXT        IDC_EDIT6,90,169,41,10,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    WS_VSCROLL
+    LTEXT           "ACCCAT",IDC_LABEL6,134,169,144,7
+END
+
+IDD_PERIOD DIALOG DISCARDABLE  0, 0, 312, 132
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | 
+    WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+MENU 256
+FONT 10, "MS Sans Serif"
+BEGIN
+    LTEXT           "&No.",IDC_STATIC1,39,33,10,12
+    EDITTEXT        IDC_EDIT1,82,33,30,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    WS_VSCROLL
+    LTEXT           "&Date Begin",IDC_STATIC2,39,51,37,10
+    EDITTEXT        IDC_EDIT2,82,51,58,12,ES_AUTOHSCROLL
+    LTEXT           "&Date End",IDC_STATIC3,39,72,36,10
+    EDITTEXT        IDC_EDIT3,82,71,58,12,ES_AUTOHSCROLL
+    LTEXT           "&Status",IDC_STATIC4,39,93,30,12
+    EDITTEXT        IDC_EDIT4,82,92,15,12,ES_AUTOHSCROLL
+    LTEXT           "&Lock Control",IDC_STATIC,117,94,64,8
+END
+
+IDD_RESET_DATABASE DIALOG DISCARDABLE  0, 0, 186, 98
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Reset all database"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Please key in reset password:",IDC_STATIC,11,19,94,8
+    EDITTEXT        IDC_EDIT1,112,18,61,14,ES_UPPERCASE | ES_PASSWORD | 
+                    ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,13,47,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,67,47,50,14
+    CONTROL         "Progress1",IDC_PROGRESS1,"msctls_progress32",WS_BORDER,
+                    7,69,172,14
+    PUSHBUTTON      "Import",IDC_BUTTON1,121,47,50,14
+    LTEXT           "",IDC_MSG,7,85,171,9
+END
+
+IDD_SPITEM DIALOGEX 0, 0, 321, 94
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Special price data entry"
+FONT 10, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    LTEXT           "Item Code",IDC_STATIC3,5,34,35,9,SS_NOTIFY,
+                    WS_EX_ACCEPTFILES
+    EDITTEXT        IDC_EDIT3,43,32,62,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    WS_VSCROLL
+    LTEXT           "",IDC_PRICE,5,61,50,8
+    EDITTEXT        IDC_EDIT4,62,60,43,12,ES_RIGHT | ES_AUTOHSCROLL
+    CONTROL         "",IDC_LABEL3,"{978C9E23-D4B0-11CE-BF2D-00AA003F40D0}",
+                    0x0,108,32,205,12
+END
+
+IDD_AREA DIALOG DISCARDABLE  0, 0, 362, 243
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | 
+    WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+MENU 256
+FONT 14, "MS Sans Serif"
+BEGIN
+    LTEXT           "Code",IDC_STATIC1,11,45,37,12
+    EDITTEXT        IDC_EDIT1,53,45,102,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    ES_READONLY | WS_VSCROLL
+    LTEXT           "Description",IDC_STATIC2,11,65,37,12
+    EDITTEXT        IDC_EDIT2,53,65,208,12,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "Remarks",IDC_STATIC3,11,85,37,12
+    EDITTEXT        IDC_EDIT3,53,85,208,21,ES_MULTILINE | ES_AUTOHSCROLL | 
+                    ES_READONLY | ES_WANTRETURN
+END
+
+IDD_REASON DIALOG DISCARDABLE  0, 0, 352, 246
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | 
+    WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+MENU 256
+FONT 10, "MS Sans Serif"
+BEGIN
+    LTEXT           "Code",IDC_STATIC1,30,45,23,12
+    EDITTEXT        IDC_EDIT1,74,45,30,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    ES_READONLY | WS_VSCROLL
+    LTEXT           "Description",IDC_STATIC2,30,65,40,12
+    EDITTEXT        IDC_EDIT2,74,65,225,12,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "Remarks",IDC_STATIC3,30,85,36,12
+    EDITTEXT        IDC_EDIT3,74,85,225,12,ES_AUTOHSCROLL | ES_READONLY
+END
+
+IDD_ADJ DIALOGEX 0, 0, 555, 418
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | 
+    WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+MENU 258
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    LTEXT           "Ref.no",IDC_STATIC1,10,49,31,9
+    EDITTEXT        IDC_EDIT1,73,48,58,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    ES_READONLY | WS_VSCROLL
+    LTEXT           "Date",IDC_STATIC2,387,49,20,9
+    EDITTEXT        IDC_EDIT2,423,48,55,13,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "Reason",IDC_STATIC3,10,69,54,9,SS_NOTIFY,
+                    WS_EX_ACCEPTFILES
+    EDITTEXT        IDC_EDIT3,73,68,58,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    ES_READONLY | WS_VSCROLL
+    LTEXT           "Reason",IDC_LABEL3,137,69,234,8
+    LTEXT           "Remarks",IDC_STATIC,10,88,35,9
+    EDITTEXT        IDC_EDIT4,73,87,300,23,ES_MULTILINE | ES_AUTOHSCROLL | 
+                    ES_READONLY | ES_WANTRETURN | WS_VSCROLL
+    CONTROL         "",IDC_MSFLEXGRID1,
+                    "{6262D3A0-531B-11CF-91F6-C2863C385E30}",WS_TABSTOP,10,
+                    116,497,200
+    CONTROL         "",IDC_TOTAL6,"{978C9E23-D4B0-11CE-BF2D-00AA003F40D0}",
+                    0x0,395,325,77,15
+    CONTROL         "",IDC_STATIC12,"{978C9E23-D4B0-11CE-BF2D-00AA003F40D0}",
+                    0x0,341,328,49,10
+    CONTROL         "",IDC_STATIC10,"{978C9E23-D4B0-11CE-BF2D-00AA003F40D0}",
+                    0x0,225,327,38,10
+    CONTROL         "",IDC_TOTAL4,"{978C9E23-D4B0-11CE-BF2D-00AA003F40D0}",
+                    0x0,268,325,55,15
+END
+
+IDD_ADJITEM DIALOGEX 0, 0, 382, 98
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    LTEXT           "Item Code",IDC_STATIC3,10,34,42,8,SS_NOTIFY,
+                    WS_EX_ACCEPTFILES
+    EDITTEXT        IDC_EDIT3,58,34,60,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    WS_VSCROLL
+    LTEXT           "Item",IDC_LABEL3,125,36,235,10
+    LTEXT           "Quantity(kg)",IDC_STATIC,10,62,44,8
+    EDITTEXT        IDC_EDIT4,58,62,58,12,ES_RIGHT | ES_AUTOHSCROLL
+    LTEXT           "U/Price(kg)",IDC_STATIC,151,62,47,8
+    EDITTEXT        IDC_EDIT5,204,62,58,12,ES_RIGHT | ES_AUTOHSCROLL
+    LTEXT           "Amount",IDC_STATIC,274,62,30,8
+    EDITTEXT        IDC_EDIT6,306,62,58,12,ES_RIGHT | ES_AUTOHSCROLL
+END
+
+IDD_STAFF DIALOG DISCARDABLE  0, 0, 363, 281
+STYLE DS_MODALFRAME | DS_CENTER | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | 
+    WS_CAPTION | WS_SYSMENU
+CAPTION "Staff Data Maintenance"
+MENU 256
+FONT 10, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_EDIT2,93,56,101,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT3,93,72,18,12,ES_UPPERCASE | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT4,200,72,14,12,ES_UPPERCASE | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT5,258,72,62,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT6,93,89,44,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT7,93,104,44,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT8,93,120,238,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT9,93,137,59,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT10,270,138,61,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT11,93,151,59,12,ES_UPPERCASE | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT12,270,152,61,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT13,93,170,59,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT14,93,188,238,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT15,93,202,238,12,ES_AUTOHSCROLL
+    LTEXT           "&Code No.",IDC_STATIC,26,43,38,8
+    LTEXT           "&Name",IDC_STATIC,26,58,24,8
+    LTEXT           "&Sex (F/M)",IDC_STATIC,26,75,38,8
+    LTEXT           "&Position",IDC_STATIC,26,92,38,8
+    LTEXT           "P&ost Code",IDC_STATIC,26,106,43,8
+    LTEXT           "&Address",IDC_STATIC,26,122,38,8
+    LTEXT           "&Marriage (S/M)",IDC_STATIC,146,73,48,8
+    LTEXT           "&Tel No.",IDC_STATIC,229,73,27,8
+    LTEXT           "I&ncome Tax No.",IDC_STATIC,26,139,57,8
+    LTEXT           "NR&IC No.",IDC_STATIC,26,153,39,8
+    LTEXT           "So&cso No.",IDC_STATIC,222,139,39,8
+    LTEXT           "E.P.&F. No.",IDC_STATIC,222,154,37,8
+    LTEXT           "&Bank A/C No.",IDC_STATIC,26,172,48,8
+    LTEXT           "&Education",IDC_STATIC,26,190,44,8
+    LTEXT           "&Remarks",IDC_STATIC,26,203,31,8
+    LTEXT           "Bir&thday",IDC_STATIC,26,223,38,8
+    LTEXT           "&Join Date",IDC_STATIC,26,239,49,10
+    LTEXT           "Resi&gn Date",IDC_STATIC,26,254,52,10
+    EDITTEXT        IDC_EDIT16,93,222,61,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT17,93,237,61,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT18,93,252,61,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT1,93,42,60,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    ES_READONLY | WS_VSCROLL
+END
+
+IDD_SWB DIALOGEX 0, 0, 388, 268
+STYLE DS_MODALFRAME | DS_CENTER | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | 
+    WS_CAPTION | WS_SYSMENU
+MENU 258
+FONT 12, "Arial", 0, 0, 0x1
+BEGIN
+    LTEXT           "&Ticket No",IDC_STATIC,10,37,44,12
+    EDITTEXT        IDC_EDIT1,60,37,81,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_VSCROLL
+    RTEXT           "Ticket &Date",IDC_STATIC,271,39,40,12
+    EDITTEXT        IDC_EDIT2,317,39,50,12,ES_AUTOHSCROLL
+    RTEXT           "&Time",IDC_STATIC,292,53,19,12
+    EDITTEXT        IDC_EDIT3,317,53,50,12,ES_AUTOHSCROLL
+    LTEXT           "&Vehcile No",IDC_STATIC5,10,79,44,12,SS_NOTIFY,
+                    WS_EX_ACCEPTFILES
+    EDITTEXT        IDC_EDIT5,60,79,81,12,ES_UPPERCASE | ES_AUTOHSCROLL
+    LTEXT           "&Gross Weight (kg)",IDC_STATIC,10,109,69,12
+    EDITTEXT        IDC_EDIT6,103,109,38,12,ES_RIGHT | ES_AUTOHSCROLL
+    LTEXT           "&Tare Weight (kg)",IDC_STATIC,10,132,66,12
+    EDITTEXT        IDC_EDIT7,103,132,38,12,ES_RIGHT | ES_UPPERCASE | 
+                    ES_AUTOHSCROLL
+    LTEXT           "&Charge",IDC_STATIC,11,186,47,12
+    EDITTEXT        IDC_EDIT8,11,206,45,12,ES_RIGHT | ES_AUTOHSCROLL
+    LTEXT           "&Remarks",IDC_STATIC14,10,238,44,12
+    EDITTEXT        IDC_EDIT14,69,238,303,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Capture Weight",IDC_BUTTON1,145,109,63,14
+    LTEXT           "&Net Weight (kg)",IDC_STATIC,10,154,52,12
+    CONTROL         "",IDC_NW,"{978C9E23-D4B0-11CE-BF2D-00AA003F40D0}",0x0,
+                    69,154,72,20
+    PUSHBUTTON      "Capture Weight",IDC_BUTTON2,145,132,63,14
+    ICON            IDI_VEHICLE_GW,IDC_STATIC,80,107,20,20
+    ICON            IDI_VEHICLE_TW,IDC_STATIC,80,131,20,20
+    LTEXT           "Tax Code",IDC_STATIC,70,186,44,12
+    EDITTEXT        IDC_EDIT9,69,206,47,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    ES_READONLY | WS_VSCROLL
+    CONTROL         "Inclusive Tax",IDC_EDIT10,"Button",BS_AUTOCHECKBOX | 
+                    BS_LEFTTEXT | WS_TABSTOP,118,206,53,9
+    LTEXT           "Tax (%)",IDC_STATIC,177,186,47,12
+    EDITTEXT        IDC_EDIT11,177,206,45,12,ES_RIGHT | ES_AUTOHSCROLL
+    LTEXT           "Tax Amt",IDC_STATIC,236,186,47,12
+    EDITTEXT        IDC_EDIT12,236,206,45,12,ES_RIGHT | ES_AUTOHSCROLL
+    LTEXT           "Total",IDC_STATIC,297,186,47,12
+    EDITTEXT        IDC_EDIT13,297,206,45,12,ES_RIGHT | ES_AUTOHSCROLL
+    GROUPBOX        "RM",IDC_STATIC,5,173,355,55
+    LTEXT           "A/C NAME",IDC_STATIC4,10,63,44,12
+    EDITTEXT        IDC_EDIT4,60,63,224,12,ES_AUTOHSCROLL
+END
+
+IDD_DDATA DIALOGEX 0, 0, 454, 208
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Weighing item detail information."
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    LTEXT           "&DATE",IDC_STATIC,10,41,44,12
+    EDITTEXT        IDC_EDIT3,61,41,72,12,ES_CENTER | ES_UPPERCASE | 
+                    ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "&TIME",IDC_STATIC,160,40,21,12
+    EDITTEXT        IDC_EDIT4,186,40,51,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    ES_READONLY
+    LTEXT           "&FIRST WEIGHT (kg)",IDC_STATIC,318,40,75,12
+    EDITTEXT        IDC_EDIT5,395,40,44,12,ES_RIGHT | ES_UPPERCASE | 
+                    ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "&SECOND WEIGHT (kg)",IDC_STATIC,309,55,81,12
+    EDITTEXT        IDC_EDIT6,395,55,44,12,ES_RIGHT | ES_UPPERCASE | 
+                    ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "&PRODUCT",IDC_STATIC,10,55,44,12,SS_NOTIFY,
+                    WS_EX_ACCEPTFILES
+    EDITTEXT        IDC_EDIT7,61,55,72,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    ES_READONLY | WS_VSCROLL
+    EDITTEXT        IDC_EDIT9,143,114,25,12,ES_RIGHT | ES_UPPERCASE | 
+                    ES_AUTOHSCROLL | ES_READONLY | NOT WS_VISIBLE | 
+                    WS_DISABLED | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT10,185,114,57,12,ES_RIGHT | ES_UPPERCASE | 
+                    ES_AUTOHSCROLL | ES_READONLY | NOT WS_VISIBLE | 
+                    WS_DISABLED | NOT WS_BORDER,WS_EX_STATICEDGE
+    LTEXT           "&NET QTY",IDC_STATIC,10,138,45,12
+    EDITTEXT        IDC_EDIT13,61,138,49,12,ES_RIGHT | ES_UPPERCASE | 
+                    ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT14,207,138,49,12,ES_RIGHT | ES_UPPERCASE | 
+                    ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "&TRIP AMT",IDC_STATIC,327,116,44,12
+    EDITTEXT        IDC_EDIT15,374,116,59,12,ES_RIGHT | ES_UPPERCASE | 
+                    ES_AUTOHSCROLL | ES_READONLY
+    GROUPBOX        "Moisture",IDC_STATIC,135,105,129,29,BS_CENTER | NOT 
+                    WS_VISIBLE | WS_DISABLED
+    LTEXT           "%",IDC_STATIC,173,115,8,8,NOT WS_VISIBLE | WS_DISABLED
+    LTEXT           "kg",IDC_STATIC,247,116,10,8,NOT WS_VISIBLE | 
+                    WS_DISABLED
+    EDITTEXT        IDC_EDIT11,268,114,25,12,ES_RIGHT | ES_UPPERCASE | 
+                    ES_AUTOHSCROLL | ES_READONLY | NOT WS_VISIBLE | 
+                    WS_DISABLED | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT12,17,112,72,12,ES_RIGHT | ES_UPPERCASE | 
+                    ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER,
+                    WS_EX_STATICEDGE
+    GROUPBOX        "Out Throw",IDC_STATIC,9,103,100,29,BS_CENTER
+    LTEXT           "%",IDC_STATIC,298,116,8,8,NOT WS_VISIBLE | WS_DISABLED
+    LTEXT           "kg",IDC_STATIC,92,113,10,8
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,0,96,453,1
+    RTEXT           "&U/PRICE",IDC_PRICE,137,138,62,12
+    LTEXT           "&AMOUNT",IDC_STATIC,327,138,44,12
+    EDITTEXT        IDC_EDIT16,374,138,59,12,ES_RIGHT | ES_UPPERCASE | 
+                    ES_AUTOHSCROLL | ES_READONLY | WS_DISABLED
+    LTEXT           "&TAX CODE",IDC_STATIC,10,155,44,12,SS_NOTIFY,
+                    WS_EX_ACCEPTFILES
+    EDITTEXT        IDC_EDIT17,61,155,49,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    ES_READONLY | WS_VSCROLL
+    EDITTEXT        IDC_EDIT19,207,155,49,12,ES_RIGHT | ES_UPPERCASE | 
+                    ES_AUTOHSCROLL | ES_READONLY
+    RTEXT           "&TAX %",IDC_PRICE2,176,155,23,12
+    LTEXT           "&SST AMT",IDC_STATIC,327,155,44,12
+    EDITTEXT        IDC_EDIT20,374,155,59,12,ES_RIGHT | ES_UPPERCASE | 
+                    ES_AUTOHSCROLL | ES_READONLY | WS_DISABLED
+    LTEXT           "&SUB-TOTAL",IDC_STATIC,327,171,44,12
+    EDITTEXT        IDC_EDIT21,374,171,59,12,ES_RIGHT | ES_UPPERCASE | 
+                    ES_AUTOHSCROLL | ES_READONLY | WS_DISABLED
+    GROUPBOX        "RM",IDC_STATIC,314,101,125,88,BS_RIGHT
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,378,71,62,1
+    CONTROL         "",IDC_LABEL7,"{978C9E23-D4B0-11CE-BF2D-00AA003F40D0}",
+                    0x0,143,55,160,12
+    CONTROL         "",IDC_NETWT,"{978C9E23-D4B0-11CE-BF2D-00AA003F40D0}",
+                    0x0,395,77,44,12
+    PUSHBUTTON      "Split Products",IDEND,143,68,58,12,NOT WS_VISIBLE
+    LTEXT           "&BALES QTY",IDC_STATIC,9,68,45,12
+    EDITTEXT        IDC_EDIT22,61,68,72,12,ES_RIGHT | ES_UPPERCASE | 
+                    ES_AUTOHSCROLL | ES_READONLY
+    CONTROL         "Include Tax",IDC_EDIT18,"Button",BS_AUTOCHECKBOX | 
+                    BS_LEFTTEXT | WS_TABSTOP,115,156,53,10
+END
+
+IDD_DEBTOR DIALOGEX 0, 0, 650, 410
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | 
+    WS_CAPTION | WS_SYSMENU
+CAPTION "DEBTOR DATA MAINTENANCE"
+MENU 256
+FONT 8, "Tahoma", 0, 0, 0x1
+BEGIN
+    LTEXT           "&A/C Code",IDC_STATIC1,20,42,60,12,SS_NOTIFY
+    EDITTEXT        IDC_EDIT1,85,42,100,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    WS_VSCROLL
+    LTEXT           "&Full Name",IDC_STATIC2,20,59,60,12,SS_NOTIFY
+    EDITTEXT        IDC_EDIT2,85,59,231,12,ES_AUTOHSCROLL
+    LTEXT           "&Short Name",IDC_STATIC3,20,75,60,12,SS_NOTIFY
+    EDITTEXT        IDC_EDIT3,85,75,231,12,ES_AUTOHSCROLL
+    LTEXT           "&Address",IDC_STATIC4,20,92,60,12,SS_NOTIFY
+    EDITTEXT        IDC_EDIT4,85,92,231,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT5,85,106,231,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT6,85,120,231,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT7,374,52,86,12,ES_AUTOHSCROLL | NOT WS_BORDER,
+                    WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT8,374,68,86,12,ES_AUTOHSCROLL | NOT WS_BORDER,
+                    WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT9,374,83,86,12,ES_AUTOHSCROLL | NOT WS_BORDER,
+                    WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT10,374,99,86,12,ES_AUTOHSCROLL | NOT WS_BORDER,
+                    WS_EX_STATICEDGE
+    LTEXT           "&Fax No.",IDC_STATIC12,339,135,26,10,SS_NOTIFY
+    EDITTEXT        IDC_EDIT12,374,132,86,12,ES_AUTOHSCROLL | NOT WS_BORDER,
+                    WS_EX_STATICEDGE
+    LTEXT           "&E-mail",IDC_STATIC13,20,143,31,12,SS_NOTIFY
+    EDITTEXT        IDC_EDIT13,85,143,231,12,ES_AUTOHSCROLL
+    LTEXT           "&Area",IDC_STATIC14,20,160,59,12,SS_NOTIFY,
+                    WS_EX_ACCEPTFILES
+    EDITTEXT        IDC_EDIT14,85,160,45,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    WS_VSCROLL
+    LTEXT           "Area",IDC_LABEL14,136,162,150,11
+    LTEXT           "&Service/Business Type",IDC_STATIC15,20,178,77,18,
+                    SS_NOTIFY,WS_EX_ACCEPTFILES
+    EDITTEXT        IDC_EDIT15,101,178,34,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    WS_VSCROLL
+    LTEXT           "Type",IDC_LABEL15,141,180,144,10
+    LTEXT           "&Currency",IDC_STATIC16,490,49,51,12,SS_NOTIFY
+    EDITTEXT        IDC_EDIT16,546,49,35,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    WS_VSCROLL
+    LTEXT           "&Salesman",IDC_STATIC17,20,197,60,12,SS_NOTIFY,
+                    WS_EX_ACCEPTFILES
+    EDITTEXT        IDC_EDIT17,85,197,45,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    WS_VSCROLL
+    LTEXT           "Staff",IDC_LABEL17,137,199,151,10
+    LTEXT           "&Contact",IDC_STATIC18,20,213,60,12,SS_NOTIFY
+    EDITTEXT        IDC_EDIT18,85,213,130,12,ES_AUTOHSCROLL
+    LTEXT           "&Debtor A/C",IDC_STATIC19,20,231,60,12,SS_NOTIFY,
+                    WS_EX_ACCEPTFILES
+    EDITTEXT        IDC_EDIT19,85,230,50,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    WS_VSCROLL
+    LTEXT           "Glcode",IDC_LABEL19,138,231,148,12
+    LTEXT           "&Creditor A/C",IDC_STATIC20,20,250,60,12,SS_NOTIFY,
+                    WS_EX_ACCEPTFILES
+    EDITTEXT        IDC_EDIT20,85,249,50,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    WS_VSCROLL
+    LTEXT           "Glcode",IDC_LABEL20,138,250,148,12
+    LTEXT           "&Terms",IDC_STATIC23,490,65,51,12,SS_NOTIFY
+    EDITTEXT        IDC_EDIT22,546,63,30,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    WS_VSCROLL
+    EDITTEXT        IDC_EDIT23,577,63,25,12,ES_CENTER | ES_UPPERCASE | 
+                    ES_AUTOHSCROLL
+    LTEXT           "Days",IDC_STATIC29,606,65,23,8,SS_NOTIFY
+    LTEXT           "&Credit Limit",IDC_STATIC24,490,79,51,12,SS_NOTIFY
+    EDITTEXT        IDC_EDIT24,546,77,54,12,ES_RIGHT | ES_AUTOHSCROLL
+    LTEXT           "&Open A/C Date",IDC_STATIC26,490,106,51,12,SS_NOTIFY
+    EDITTEXT        IDC_EDIT26,546,105,54,12,ES_AUTOHSCROLL
+    LTEXT           "&Remarks",IDC_STATIC27,20,282,60,25,SS_NOTIFY
+    EDITTEXT        IDC_EDIT29,85,282,231,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT30,85,296,231,12,ES_AUTOHSCROLL
+    ICON            2505,IDC_STATIC,340,65,20,20,SS_NOTIFY
+    ICON            2506,IDC_STATIC,340,112,20,20,SS_NOTIFY
+    GROUPBOX        "Telephone No.",IDC_STATIC,328,41,150,116,BS_LEFT,
+                    WS_EX_WINDOWEDGE
+    GROUPBOX        "",IDC_STATIC,483,41,150,116,BS_LEFT,WS_EX_WINDOWEDGE
+    LTEXT           "&Balance Amt.",IDC_STATIC25,490,92,51,12,SS_NOTIFY
+    EDITTEXT        IDC_EDIT25,546,90,54,12,ES_RIGHT | ES_AUTOHSCROLL
+    CONTROL         "Don't print monthly statement",IDC_EDIT27,"Button",
+                    BS_AUTOCHECKBOX | BS_LEFTTEXT | WS_TABSTOP,489,124,107,
+                    10
+    CONTROL         "Print zero balance statement",IDC_EDIT28,"Button",
+                    BS_AUTOCHECKBOX | BS_LEFTTEXT | WS_TABSTOP,489,139,107,
+                    10
+    LTEXT           "&Payment Scheme",IDC_STATIC21,20,266,60,12,SS_NOTIFY
+    EDITTEXT        IDC_EDIT21,85,266,50,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    WS_VSCROLL
+    CONTROL         "",IDC_MSFLEXGRID1,
+                    "{6262D3A0-531B-11CF-91F6-C2863C385E30}",WS_TABSTOP,328,
+                    168,306,191
+    CONTROL         "",IDC_DCR_LABEL,"{978C9E23-D4B0-11CE-BF2D-00AA003F40D0}",
+                    0x0,548,34,6,9
+    LTEXT           "Scheme",IDC_LABEL21,138,267,148,12
+    CTEXT           "&Tel No.",IDC_STATIC28,332,88,39,10,SS_NOTIFY
+    PUSHBUTTON      "View Balance",IDC_BUTTON4,191,314,55,14,NOT WS_VISIBLE
+    PUSHBUTTON      "Outstanding Invoice",IDC_BUTTON5,118,313,70,14,NOT 
+                    WS_VISIBLE
+    CONTROL         "DateTimePicker1",IDC_DATETIMEPICKER1,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | NOT WS_VISIBLE | WS_TABSTOP,255,312,58,
+                    14
+    EDITTEXT        IDC_EDIT11,374,114,86,12,ES_AUTOHSCROLL | NOT WS_BORDER,
+                    WS_EX_STATICEDGE
+    LTEXT           "&Tax Code",IDC_STATIC48,20,366,50,13,SS_NOTIFY,
+                    WS_EX_ACCEPTFILES
+    EDITTEXT        IDC_EDIT48,85,366,71,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    WS_VSCROLL
+    LTEXT           "CATEGORY",IDC_LABEL48,164,366,470,29
+    LTEXT           "&Verify Date",IDC_STATIC30,161,351,40,12,SS_NOTIFY
+    EDITTEXT        IDC_EDIT49,204,350,55,12,ES_AUTOHSCROLL
+    LTEXT           "&SST register No.",IDC_STATIC31,19,351,63,12,SS_NOTIFY
+    EDITTEXT        IDC_EDIT47,85,350,71,12,ES_AUTOHSCROLL
+END
+
+IDD_PT DIALOGEX 0, 0, 324, 278
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | 
+    WS_CAPTION | WS_SYSMENU
+CAPTION "Product Data Entry"
+MENU 256
+FONT 14, "MS Serif", 0, 0, 0x1
+BEGIN
+    LTEXT           "Product &Code",IDC_STATIC,10,30,50,12
+    EDITTEXT        IDC_EDIT1,99,30,56,13,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    ES_READONLY | WS_VSCROLL
+    LTEXT           "&Description",IDC_STATIC,10,44,50,12
+    EDITTEXT        IDC_EDIT2,99,44,200,12,ES_AUTOHSCROLL
+    LTEXT           "&Category",IDC_STATIC3,10,58,50,12,SS_NOTIFY,
+                    WS_EX_ACCEPTFILES
+    EDITTEXT        IDC_EDIT3,99,58,56,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    WS_VSCROLL
+    LTEXT           "&Unit",IDC_STATIC4,10,72,50,12,SS_NOTIFY,
+                    WS_EX_ACCEPTFILES
+    EDITTEXT        IDC_EDIT4,99,72,56,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    WS_VSCROLL
+    LTEXT           "&Purchase Glcode",IDC_STATIC5,10,99,71,12,SS_NOTIFY,
+                    WS_EX_ACCEPTFILES
+    EDITTEXT        IDC_EDIT5,99,99,56,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    WS_VSCROLL
+    CONTROL         "",IDC_LABEL5,"{978C9E23-D4B0-11CE-BF2D-00AA003F40D0}",
+                    0x0,159,99,141,12
+    LTEXT           "Sales &Glcode",IDC_STATIC6,10,113,71,12,SS_NOTIFY,
+                    WS_EX_ACCEPTFILES
+    EDITTEXT        IDC_EDIT6,99,113,56,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    WS_VSCROLL
+    CONTROL         "",IDC_LABEL6,"{978C9E23-D4B0-11CE-BF2D-00AA003F40D0}",
+                    0x0,159,113,141,12
+    LTEXT           "&Cost price",IDC_STATIC,10,178,50,12
+    EDITTEXT        IDC_EDIT9,99,178,56,12,ES_RIGHT | ES_AUTOHSCROLL
+    LTEXT           "Sales &Price",IDC_STATIC,204,179,37,12
+    EDITTEXT        IDC_EDIT10,242,179,56,12,ES_RIGHT | ES_AUTOHSCROLL
+    LTEXT           "&Remarks",IDC_STATIC,10,195,50,12
+    EDITTEXT        IDC_EDIT11,99,195,200,12,ES_AUTOHSCROLL
+    GROUPBOX        "Credit G.L Code",IDC_STATIC,6,89,309,41
+    LTEXT           "&Purchase Glcode",IDC_STATIC7,10,143,71,12,SS_NOTIFY,
+                    WS_EX_ACCEPTFILES
+    EDITTEXT        IDC_EDIT7,99,143,56,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    WS_VSCROLL
+    CONTROL         "",IDC_LABEL7,"{978C9E23-D4B0-11CE-BF2D-00AA003F40D0}",
+                    0x0,161,143,141,12
+    LTEXT           "Sales &Glcode",IDC_STATIC8,10,157,71,12,SS_NOTIFY,
+                    WS_EX_ACCEPTFILES
+    EDITTEXT        IDC_EDIT8,99,157,56,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    WS_VSCROLL
+    CONTROL         "",IDC_LABEL8,"{978C9E23-D4B0-11CE-BF2D-00AA003F40D0}",
+                    0x0,161,157,141,12
+    GROUPBOX        "Cash Bill G.L Code",IDC_STATIC,6,133,309,41
+    LTEXT           "Purchase",IDC_STATIC9,10,223,50,12,SS_NOTIFY,
+                    WS_EX_ACCEPTFILES
+    EDITTEXT        IDC_EDIT12,99,223,56,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    WS_VSCROLL
+    CONTROL         "",IDC_LABEL12,"{978C9E23-D4B0-11CE-BF2D-00AA003F40D0}",
+                    0x0,158,223,141,12
+    CONTROL         "",IDC_LABEL3,"{978C9E23-D4B0-11CE-BF2D-00AA003F40D0}",
+                    0x0,158,58,141,12
+    CONTROL         "",IDC_LABEL4,"{978C9E23-D4B0-11CE-BF2D-00AA003F40D0}",
+                    0x0,158,72,141,12
+    LTEXT           "&Tax Code",IDC_STATIC10,99,212,50,9,SS_NOTIFY,
+                    WS_EX_ACCEPTFILES
+    LTEXT           "Description",IDC_STATIC11,158,212,50,9,SS_NOTIFY,
+                    WS_EX_ACCEPTFILES
+    LTEXT           "Sales",IDC_STATIC,10,238,50,12,SS_NOTIFY,
+                    WS_EX_ACCEPTFILES
+    EDITTEXT        IDC_EDIT13,99,238,56,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    WS_VSCROLL
+    CONTROL         "",IDC_LABEL13,"{978C9E23-D4B0-11CE-BF2D-00AA003F40D0}",
+                    0x0,158,238,141,12
+END
+
+IDD_LORRY DIALOGEX 0, 0, 331, 202
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | 
+    WS_CAPTION | WS_SYSMENU
+CAPTION "Product Data Entry"
+MENU 256
+FONT 10, "Tahoma", 0, 0, 0x1
+BEGIN
+    LTEXT           "&Vehicle No.",IDC_STATIC1,10,54,44,12
+    EDITTEXT        IDC_EDIT1,74,54,112,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    WS_VSCROLL
+    LTEXT           "&Transporter",IDC_STATIC2,10,68,44,12,SS_NOTIFY,
+                    WS_EX_ACCEPTFILES
+    EDITTEXT        IDC_EDIT2,74,68,45,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    WS_VSCROLL
+    LTEXT           "TRANSP",IDC_LABEL2,125,68,200,12
+    LTEXT           "&Driver",IDC_STATIC3,10,82,44,12,SS_NOTIFY,
+                    WS_EX_ACCEPTFILES
+    EDITTEXT        IDC_EDIT3,74,82,45,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    WS_VSCROLL
+    LTEXT           "DRIVER",IDC_LABEL3,125,82,200,12
+    LTEXT           "&Tare Weight (kg)",IDC_STATIC,10,96,57,12
+    EDITTEXT        IDC_EDIT4,74,96,30,12,ES_RIGHT | ES_AUTOHSCROLL
+    LTEXT           "&Black Listed",IDC_STATIC,10,110,56,12
+    EDITTEXT        IDC_EDIT5,75,110,17,12,ES_UPPERCASE | ES_AUTOHSCROLL
+    LTEXT           "&Remarks",IDC_STATIC,10,125,44,12
+    EDITTEXT        IDC_EDIT6,75,125,241,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT7,75,138,241,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT8,75,151,241,12,ES_AUTOHSCROLL
+    LTEXT           "(Y/N)",IDC_STATIC,95,112,22,10
+END
+
+IDD_PROFILE DIALOGEX 0, 0, 372, 309
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | 
+    WS_CAPTION | WS_SYSMENU
+CAPTION "Company Profile"
+MENU 256
+FONT 12, "Arial", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT2,12,66,340,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT3,12,80,340,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT4,12,93,340,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT5,90,120,55,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT6,195,120,33,12,ES_RIGHT | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT1,90,47,55,14,ES_AUTOHSCROLL
+    LTEXT           "&Purchase Invoice Prefix",IDC_STATIC,13,120,76,8
+    LTEXT           "&Company Reg. No.",IDC_STATIC,13,48,75,13
+    LTEXT           "&Std. Weight",IDC_STATIC,150,121,41,8
+    CONTROL         "Use TCP/IP capture weight.",IDC_EDIT7,"Button",
+                    BS_AUTOCHECKBOX | BS_LEFTTEXT | WS_TABSTOP,250,120,102,
+                    10
+    EDITTEXT        IDC_EDIT8,90,137,125,12,ES_AUTOHSCROLL
+    LTEXT           "&Weight Server Name",IDC_STATIC,13,137,72,8
+    EDITTEXT        IDC_EDIT9,264,137,94,12,ES_AUTOHSCROLL
+    LTEXT           "&Branch",IDC_STATIC,222,137,32,8
+    LTEXT           "Receiving Adj. code",IDC_STATIC,13,166,72,13,SS_NOTIFY,
+                    WS_EX_ACCEPTFILES
+    EDITTEXT        IDC_EDIT10,90,167,55,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    WS_VSCROLL
+    LTEXT           "ACCODE",IDC_LABEL10,151,167,198,11,0,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT12,90,197,55,12,ES_RIGHT | ES_AUTOHSCROLL
+    LTEXT           "Rounding Factor",IDC_STATIC,13,198,62,8
+    GROUPBOX        "Decimal Rounding Adjustment ",IDC_STATIC,7,154,351,62
+    LTEXT           "Despatch Adj. code",IDC_STATIC,13,180,72,13,SS_NOTIFY,
+                    WS_EX_ACCEPTFILES
+    EDITTEXT        IDC_EDIT11,90,181,55,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    WS_VSCROLL
+    LTEXT           "ACCODE",IDC_LABEL11,151,181,198,11,0,WS_EX_STATICEDGE
+    LTEXT           "GST Reg. No.",IDC_STATIC65,13,226,48,12
+    EDITTEXT        IDC_EDIT13,72,226,65,12,ES_UPPERCASE | ES_AUTOHSCROLL
+    LTEXT           "GST Eff. Date",IDC_STATIC66,145,226,49,12
+    EDITTEXT        IDC_EDIT14,201,226,45,12,ES_CENTER | ES_UPPERCASE | 
+                    ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT15,316,226,33,12,ES_RIGHT | ES_UPPERCASE | 
+                    ES_AUTOHSCROLL
+    LTEXT           "ALERT BEFORE 21 DAYS RULE",IDC_STATIC,13,244,112,12
+    EDITTEXT        IDC_EDIT16,133,244,24,12,ES_RIGHT | ES_UPPERCASE | 
+                    ES_AUTOHSCROLL
+    RTEXT           "GST Version",IDC_STATIC67,256,226,51,12
+    RTEXT           "21 DAYS RULE",IDC_STATIC,246,244,61,12
+    EDITTEXT        IDC_EDIT17,316,244,33,12,ES_RIGHT | ES_UPPERCASE | 
+                    ES_AUTOHSCROLL
+    CONTROL         "Support Snapshot",IDC_EDIT18,"Button",BS_AUTOCHECKBOX | 
+                    BS_LEFTTEXT | WS_TABSTOP,13,270,65,10
+    LTEXT           "PDF Folder",IDC_STATIC,93,271,37,8
+    EDITTEXT        IDC_EDIT20,152,269,200,12,ES_UPPERCASE | ES_AUTOHSCROLL
+    LTEXT           "IC Picture Folder",IDC_STATIC,93,285,53,8
+    EDITTEXT        IDC_EDIT21,152,283,200,12,ES_UPPERCASE | ES_AUTOHSCROLL
+END
+
+IDD_WB DIALOGEX 0, 0, 552, 370
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | 
+    WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+MENU 258
+FONT 10, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    LTEXT           "&Ticket No.",IDC_STATIC1,9,41,46,12
+    EDITTEXT        IDC_EDIT1,58,41,70,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    ES_READONLY | WS_VSCROLL
+    LTEXT           "&Vehicle No.",IDC_STATIC2,9,56,46,12,SS_NOTIFY,
+                    WS_EX_ACCEPTFILES
+    EDITTEXT        IDC_EDIT2,58,56,70,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    ES_READONLY
+    LTEXT           "&Trailer No.",IDC_STATIC3,134,56,34,12,SS_NOTIFY,
+                    WS_EX_ACCEPTFILES
+    EDITTEXT        IDC_EDIT3,170,56,52,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    ES_READONLY
+    LTEXT           "&Container No.",IDC_STATIC4,224,56,46,12,SS_NOTIFY,
+                    WS_EX_ACCEPTFILES
+    EDITTEXT        IDC_EDIT4,272,56,98,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    ES_READONLY
+    LTEXT           "Ticket &Date",IDC_STATIC5,381,42,41,12
+    EDITTEXT        IDC_EDIT5,429,41,55,14,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "Ticket &Time",IDC_STATIC6,381,56,42,9
+    EDITTEXT        IDC_EDIT6,429,56,55,14,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "&Seller",IDC_STATIC7,9,71,46,12,SS_NOTIFY,
+                    WS_EX_ACCEPTFILES
+    EDITTEXT        IDC_EDIT7,58,71,70,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    ES_READONLY | WS_VSCROLL
+    LTEXT           "&Transporter",IDC_STATIC8,9,84,46,12,SS_NOTIFY,
+                    WS_EX_ACCEPTFILES
+    EDITTEXT        IDC_EDIT8,58,84,70,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    ES_READONLY | WS_VSCROLL
+    LTEXT           "&Driver",IDC_STATIC9,9,100,46,12,SS_NOTIFY,
+                    WS_EX_ACCEPTFILES
+    EDITTEXT        IDC_EDIT9,58,100,70,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    ES_READONLY | WS_VSCROLL
+    LTEXT           "&Tender",IDC_STATIC10,10,115,46,12,SS_NOTIFY,
+                    WS_EX_ACCEPTFILES
+    EDITTEXT        IDC_EDIT10,59,115,70,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    ES_READONLY | WS_VSCROLL
+    LTEXT           "&DO No.",IDC_STATIC14,381,71,26,12
+    EDITTEXT        IDC_EDIT11,429,71,55,14,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "&DO Date",IDC_STATIC,381,86,26,12
+    EDITTEXT        IDC_EDIT12,429,86,55,14,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "&Remarks",IDC_STATIC18,9,131,46,12
+    EDITTEXT        IDC_EDIT13,58,130,242,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    ES_READONLY
+    EDITTEXT        IDC_EDIT14,58,145,242,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    ES_READONLY
+    CONTROL         "Ticket &Printed",IDC_EDIT15,"Button",BS_AUTOCHECKBOX | 
+                    BS_LEFTTEXT | WS_TABSTOP,381,104,60,10
+    EDITTEXT        IDC_EDIT16,446,104,38,12,ES_AUTOHSCROLL | ES_READONLY
+    CONTROL         "Cash Bill",IDC_EDIT17,"Button",BS_AUTOCHECKBOX | 
+                    BS_LEFTTEXT | WS_TABSTOP,381,118,60,10
+    LTEXT           "&User ",IDC_STATIC,452,120,25,12,SS_NOTIFY,
+                    WS_EX_ACCEPTFILES
+    CONTROL         "Auto Rounding",IDC_EDIT18,"Button",BS_AUTOCHECKBOX | 
+                    BS_LEFTTEXT | WS_TABSTOP,381,133,60,10
+    CONTROL         "",IDC_USER,"{978C9E23-D4B0-11CE-BF2D-00AA003F40D0}",0x0,
+                    450,134,34,15
+    EDITTEXT        IDC_EDIT19,48,282,45,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    ES_READONLY | WS_VSCROLL
+    EDITTEXT        IDC_EDIT20,60,298,43,12,ES_UPPERCASE | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT21,161,298,43,12,ES_AUTOHSCROLL | NOT WS_BORDER,
+                    WS_EX_STATICEDGE
+    CONTROL         "",IDC_MSFLEXGRID1,
+                    "{6262D3A0-531B-11CF-91F6-C2863C385E30}",WS_TABSTOP,6,
+                    166,483,112
+    LTEXT           "Total Net Weight (kg)",IDC_STATIC,269,284,69,8
+    CONTROL         "",IDC_TOTAL13,"{978C9E23-D4B0-11CE-BF2D-00AA003F40D0}",
+                    0x0,343,281,44,15
+    LTEXT           "Total Amount",IDC_STATIC,396,285,43,8
+    CONTROL         "",IDC_TOTAL21,"{978C9E23-D4B0-11CE-BF2D-00AA003F40D0}",
+                    0x0,445,282,44,15
+    LTEXT           "A/C Amount",IDC_STATIC,209,319,38,12
+    CONTROL         "",IDC_ACAMT,"{978C9E23-D4B0-11CE-BF2D-00AA003F40D0}",
+                    0x0,249,316,41,15
+    LTEXT           "Variance:",IDC_STATIC,294,316,43,15
+    CONTROL         "",IDC_ACVAR,"{978C9E23-D4B0-11CE-BF2D-00AA003F40D0}",
+                    0x0,343,316,44,15
+    PUSHBUTTON      "Export To A/C",IDC_BUTTON1,305,146,63,13,NOT WS_VISIBLE | 
+                    WS_DISABLED
+    LTEXT           "&Pay By",IDC_STATIC,16,282,25,12,SS_NOTIFY,
+                    WS_EX_ACCEPTFILES
+    LTEXT           "DRIVER",IDC_LABEL19,97,282,134,12,0,WS_EX_STATICEDGE
+    LTEXT           "&Cheque No.",IDC_STATIC,15,298,37,12
+    LTEXT           "&Cheque Date",IDC_STATIC,113,298,43,12
+    CONTROL         "",ID_SHOWPRINTCOUNTER,
+                    "{978C9E23-D4B0-11CE-BF2D-00AA003F40D0}",0x0,131,41,20,
+                    12
+    LTEXT           "&Invoice No.",IDC_STATIC,210,299,35,12
+    CONTROL         "",IDC_NAME1,"{978C9E23-D4B0-11CE-BF2D-00AA003F40D0}",
+                    0x0,250,299,39,12
+    LTEXT           "&Pay Status",IDC_STATIC,294,299,41,12
+    CONTROL         "",IDC_NAME2,"{978C9E23-D4B0-11CE-BF2D-00AA003F40D0}",
+                    0x0,343,299,44,12
+    LTEXT           "SST AMT",IDC_STATIC,397,304,43,8
+    CONTROL         "",IDC_TOTAL20,"{978C9E23-D4B0-11CE-BF2D-00AA003F40D0}",
+                    0x0,445,302,44,15
+    PUSHBUTTON      "View Snapshot",IDC_BUTTON2,12,321,68,14
+    CONTROL         "",IDC_LABEL7,"{978C9E23-D4B0-11CE-BF2D-00AA003F40D0}",
+                    0x0,132,72,237,12
+    CONTROL         "",IDC_LABEL8,"{978C9E23-D4B0-11CE-BF2D-00AA003F40D0}",
+                    0x0,132,86,237,12
+    CONTROL         "",IDC_LABEL9,"{978C9E23-D4B0-11CE-BF2D-00AA003F40D0}",
+                    0x0,132,101,237,11
+    CONTROL         "",IDC_LABEL10,"{978C9E23-D4B0-11CE-BF2D-00AA003F40D0}",
+                    0x0,132,115,237,12
+    PUSHBUTTON      "Last Transaction",IDC_BUTTON3,305,130,63,13
+END
+
+IDD_DESPATCH DIALOGEX 0, 0, 494, 359
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | 
+    WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+MENU 258
+FONT 10, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    LTEXT           "&Ticket No.",IDC_STATIC1,10,34,46,12
+    EDITTEXT        IDC_EDIT1,60,34,70,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    ES_READONLY | WS_VSCROLL
+    LTEXT           "&Vehicle No.",IDC_STATIC2,10,49,46,12,SS_NOTIFY,
+                    WS_EX_ACCEPTFILES
+    EDITTEXT        IDC_EDIT2,60,49,70,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    ES_READONLY
+    LTEXT           "&Buyer",IDC_STATIC7,10,64,46,12,SS_NOTIFY,
+                    WS_EX_ACCEPTFILES
+    EDITTEXT        IDC_EDIT8,60,79,70,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    ES_READONLY | WS_VSCROLL
+    LTEXT           "&Driver",IDC_STATIC9,10,94,46,12,SS_NOTIFY,
+                    WS_EX_ACCEPTFILES
+    EDITTEXT        IDC_EDIT9,60,94,70,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    ES_READONLY | WS_VSCROLL
+    LTEXT           "&DO No.",IDC_STATIC14,387,64,26,12
+    LTEXT           "Ticket &Date",IDC_STATIC5,387,35,41,12
+    EDITTEXT        IDC_EDIT5,435,34,55,14,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "Ticket &Time",IDC_STATIC6,387,49,42,9
+    EDITTEXT        IDC_EDIT6,435,49,55,14,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT11,435,64,55,14,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "&Remarks",IDC_STATIC18,10,129,46,12
+    LTEXT           "&Transporter",IDC_STATIC8,10,79,46,12,SS_NOTIFY,
+                    WS_EX_ACCEPTFILES
+    EDITTEXT        IDC_EDIT7,60,64,70,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    ES_READONLY | WS_VSCROLL
+    LTEXT           "Total Net Weight (kg)",IDC_STATIC,270,305,69,8
+    CONTROL         "",IDC_TOTAL13,"{978C9E23-D4B0-11CE-BF2D-00AA003F40D0}",
+                    0x0,344,302,44,15
+    LTEXT           "Total Amount",IDC_STATIC,395,305,43,8
+    CONTROL         "",IDC_TOTAL21,"{978C9E23-D4B0-11CE-BF2D-00AA003F40D0}",
+                    0x0,447,302,44,15
+    CONTROL         "Ticket &Printed",IDC_EDIT15,"Button",BS_AUTOCHECKBOX | 
+                    BS_LEFTTEXT | WS_TABSTOP,385,95,60,10
+    EDITTEXT        IDC_EDIT13,59,126,242,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    ES_READONLY
+    EDITTEXT        IDC_EDIT14,59,139,242,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    ES_READONLY
+    LTEXT           "&Trailer No.",IDC_STATIC3,135,49,34,12,SS_NOTIFY,
+                    WS_EX_ACCEPTFILES
+    EDITTEXT        IDC_EDIT3,171,49,52,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    ES_READONLY
+    LTEXT           "&Container No.",IDC_STATIC4,225,49,46,12,SS_NOTIFY,
+                    WS_EX_ACCEPTFILES
+    EDITTEXT        IDC_EDIT4,273,49,98,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    ES_READONLY
+    EDITTEXT        IDC_EDIT16,450,95,40,12,ES_AUTOHSCROLL | ES_READONLY
+    CONTROL         "Cash Bill",IDC_EDIT17,"Button",BS_AUTOCHECKBOX | 
+                    BS_LEFTTEXT | WS_TABSTOP,385,109,60,10
+    CONTROL         "Auto Rounding",IDC_EDIT18,"Button",BS_AUTOCHECKBOX | 
+                    BS_LEFTTEXT | WS_TABSTOP,385,124,60,10
+    LTEXT           "&DO Date",IDC_STATIC,387,79,26,12
+    EDITTEXT        IDC_EDIT12,435,79,55,14,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "&Tender",IDC_STATIC10,10,108,46,12,SS_NOTIFY,
+                    WS_EX_ACCEPTFILES
+    EDITTEXT        IDC_EDIT10,60,108,70,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    ES_READONLY | WS_VSCROLL
+    LTEXT           "&Pay By",IDC_STATIC19,16,303,25,12,SS_NOTIFY,
+                    WS_EX_ACCEPTFILES
+    EDITTEXT        IDC_EDIT19,48,303,45,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    ES_READONLY | WS_VSCROLL
+    LTEXT           "DRIVER",IDC_LABEL19,97,303,134,12,0,WS_EX_STATICEDGE
+    LTEXT           "&User ",IDC_STATIC,387,142,25,12,SS_NOTIFY,
+                    WS_EX_ACCEPTFILES
+    CONTROL         "",IDC_USER,"{978C9E23-D4B0-11CE-BF2D-00AA003F40D0}",0x0,
+                    420,142,44,15
+    EDITTEXT        IDC_EDIT20,59,319,43,12,ES_UPPERCASE | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT21,160,319,43,12,ES_AUTOHSCROLL | NOT WS_BORDER,
+                    WS_EX_STATICEDGE
+    LTEXT           "&Cheque No.",IDC_STATIC,14,319,37,12
+    LTEXT           "&Cheque Date",IDC_STATIC,112,319,43,12
+    CONTROL         "",ID_SHOWPRINTCOUNTER,
+                    "{978C9E23-D4B0-11CE-BF2D-00AA003F40D0}",0x0,132,34,20,
+                    12
+    LTEXT           "&Invoice No.",IDC_STATIC,211,320,35,12
+    CONTROL         "",IDC_NAME1,"{978C9E23-D4B0-11CE-BF2D-00AA003F40D0}",
+                    0x0,251,320,39,12
+    LTEXT           "&Pay Status",IDC_STATIC,300,320,40,12
+    CONTROL         "",IDC_NAME2,"{978C9E23-D4B0-11CE-BF2D-00AA003F40D0}",
+                    0x0,344,320,44,12
+    PUSHBUTTON      "Export To A/C",IDC_BUTTON1,305,139,68,14,NOT WS_VISIBLE | 
+                    WS_DISABLED
+    LTEXT           "SST Amount",IDC_STATIC,395,323,43,8
+    CONTROL         "",IDC_TOTAL20,"{978C9E23-D4B0-11CE-BF2D-00AA003F40D0}",
+                    0x0,447,320,44,15
+    PUSHBUTTON      "View Snapshot",IDC_BUTTON2,12,335,68,14
+    CONTROL         "",IDC_MSFLEXGRID1,
+                    "{6262D3A0-531B-11CF-91F6-C2863C385E30}",WS_TABSTOP,0,
+                    164,493,130
+    CONTROL         "",IDC_LABEL7,"{978C9E23-D4B0-11CE-BF2D-00AA003F40D0}",
+                    0x0,133,65,237,12
+    CONTROL         "",IDC_LABEL8,"{978C9E23-D4B0-11CE-BF2D-00AA003F40D0}",
+                    0x0,133,79,237,12
+    CONTROL         "",IDC_LABEL9,"{978C9E23-D4B0-11CE-BF2D-00AA003F40D0}",
+                    0x0,133,93,237,12
+    CONTROL         "",IDC_LABEL10,"{978C9E23-D4B0-11CE-BF2D-00AA003F40D0}",
+                    0x0,133,107,237,12
+END
+
+IDD_DRIVER DIALOG DISCARDABLE  0, 0, 338, 210
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | 
+    WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+MENU 256
+FONT 14, "MS Serif"
+BEGIN
+    LTEXT           "&I/C No.",IDC_STATIC1,13,65,40,12
+    EDITTEXT        IDC_EDIT1,59,65,56,13,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    ES_READONLY | WS_VSCROLL
+    LTEXT           "&Name",IDC_STATIC,13,85,40,12
+    EDITTEXT        IDC_EDIT2,59,85,175,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT4,59,103,175,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT5,59,117,175,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT6,59,131,175,12,ES_AUTOHSCROLL
+    LTEXT           "&Address",IDC_STATIC,13,104,40,12
+END
+
+IDD_VTYPE DIALOG DISCARDABLE  0, 0, 226, 124
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | 
+    WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+MENU 256
+FONT 9, "Arial"
+BEGIN
+    LTEXT           "&Vehicle Type",IDC_STATIC1,10,61,46,12
+    EDITTEXT        IDC_EDIT1,60,61,30,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    ES_READONLY | WS_VSCROLL
+    LTEXT           "&Description",IDC_STATIC2,10,85,42,12
+    EDITTEXT        IDC_EDIT2,60,85,97,12,ES_AUTOHSCROLL | ES_READONLY
+    ICON            2533,IDC_STATIC,27,34,20,20
+END
+
+IDD_TRANSP DIALOG DISCARDABLE  0, 0, 300, 177
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | 
+    WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+MENU 256
+FONT 14, "MS Sans Serif"
+BEGIN
+    LTEXT           "Transporter",IDC_STATIC,20,39,44,12
+    EDITTEXT        IDC_EDIT1,69,36,65,15,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    ES_READONLY | WS_VSCROLL
+    LTEXT           "&Name",IDC_STATIC,20,53,44,12
+    EDITTEXT        IDC_EDIT2,70,53,200,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT3,70,67,100,12,ES_AUTOHSCROLL
+    LTEXT           "&Tel",IDC_STATIC,20,81,44,12
+    EDITTEXT        IDC_EDIT4,70,81,100,12,ES_AUTOHSCROLL
+    LTEXT           "&Address",IDC_STATIC,20,95,44,12
+    EDITTEXT        IDC_EDIT5,70,95,200,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT6,70,109,200,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT7,70,123,200,12,ES_AUTOHSCROLL
+    LTEXT           "&Remarks",IDC_STATIC,20,137,44,12
+    EDITTEXT        IDC_EDIT8,70,137,200,12,ES_AUTOHSCROLL
+END
+
+IDD_TENDER DIALOG DISCARDABLE  0, 0, 300, 177
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | 
+    WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+MENU 256
+FONT 14, "MS Sans Serif"
+BEGIN
+    LTEXT           "Tender",IDC_STATIC,20,39,44,12
+    EDITTEXT        IDC_EDIT1,69,36,65,15,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    ES_READONLY | WS_VSCROLL
+    LTEXT           "&Name",IDC_STATIC,20,53,44,12
+    EDITTEXT        IDC_EDIT2,70,53,200,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT3,70,67,100,12,ES_AUTOHSCROLL
+    LTEXT           "&Tel",IDC_STATIC,20,81,44,12
+    EDITTEXT        IDC_EDIT4,70,81,100,12,ES_AUTOHSCROLL
+    LTEXT           "&Address",IDC_STATIC,20,95,44,12
+    EDITTEXT        IDC_EDIT5,70,95,200,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT6,70,109,200,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT7,70,123,200,12,ES_AUTOHSCROLL
+    LTEXT           "&Remarks",IDC_STATIC,20,137,44,12
+    EDITTEXT        IDC_EDIT8,70,137,200,12,ES_AUTOHSCROLL
+END
+
+IDD_FGW DIALOGEX 0, 0, 235, 281
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | 
+    WS_CAPTION | WS_SYSMENU
+CAPTION "Weight monitor"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    LTEXT           "Product",IDC_STATIC,11,72,26,14,SS_CENTERIMAGE
+    COMBOBOX        IDC_PRODUCT,45,72,59,101,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "",IDC_STATIC_PT,45,89,124,8
+    LTEXT           "Moisture",IDC_STATIC1,13,107,28,8
+    COMBOBOX        IDC_COMBO1,47,107,33,79,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Outthrow",IDC_STATIC2,13,123,30,8
+    COMBOBOX        IDC_COMBO2,47,123,33,83,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "U/Price",IDC_STATIC3,13,143,26,8
+    EDITTEXT        IDC_EDIT2,47,140,65,14,ES_RIGHT | ES_AUTOHSCROLL
+    LTEXT           "(RM /PMT)",IDC_STATIC5,119,144,37,8
+    LTEXT           "Trip Expense",IDC_STATIC4,13,165,42,8,NOT WS_VISIBLE
+    EDITTEXT        IDC_EDIT3,63,163,49,14,ES_RIGHT | ES_AUTOHSCROLL | NOT 
+                    WS_VISIBLE
+    LTEXT           "(RM /TRIP)",IDC_STATIC6,119,167,38,8,NOT WS_VISIBLE
+    DEFPUSHBUTTON   "Accept weight",IDOK,8,250,91,24
+    CONTROL         "",IDC_TEXTBOX1,"{8BD21D10-EC42-11CE-9E0D-00AA006002F3}",
+                    0x0,7,25,192,43
+    PUSHBUTTON      "Cancel",IDCANCEL,114,250,73,24
+    LTEXT           "Current Weight",IDC_STATIC,9,10,51,9
+    LTEXT           "Last Weight:",IDC_STATIC,99,10,42,9
+    EDITTEXT        IDC_LASTWT,143,9,34,14,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_READONLY | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    PUSHBUTTON      "Select Product",IDC_BUTTON1,111,72,81,14
+    ICON            2510,IDC_TRAFFIC,184,7,20,20
+END
+
+IDD_FGFTP DIALOG DISCARDABLE  0, 0, 210, 126
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | 
+    WS_CAPTION | WS_SYSMENU
+CAPTION "Weight monitor"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "&Accept Weight",IDOK,7,57,76,30
+    DEFPUSHBUTTON   "&Cancel",IDCANCEL,7,90,76,30
+    CONTROL         "",IDC_TEXTBOX1,"{8BD21D10-EC42-11CE-9E0D-00AA006002F3}",
+                    0x0,8,6,171,38
+    COMBOBOX        IDC_COMBO1,111,61,67,60,CBS_SIMPLE | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Indicator No.",IDC_STATIC1,113,49,40,8,SS_NOTIFY
+    ICON            2510,IDC_TRAFFIC,184,7,21,20
+END
+
+IDD_FASTSEARCH DIALOG DISCARDABLE  0, 0, 165, 154
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Vehicle In Yard"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,1,133,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,55,133,50,14
+    COMBOBOX        IDC_COMBO1,1,33,156,102,CBS_SIMPLE | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    CONTROL         "DateTimePicker1",IDC_DATETIMEPICKER1,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | WS_TABSTOP,27,15,63,14
+    PUSHBUTTON      "&Advance",IDC_BUTTON1,107,133,50,14
+    LTEXT           "&Date",IDC_STATIC,6,15,16,14,SS_CENTERIMAGE
+    CONTROL         "Unprint Only",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | 
+                    BS_FLAT | WS_TABSTOP,96,15,52,14
+END
+
+IDD_SIC DIALOGEX 0, 0, 186, 95
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | 
+    WS_CAPTION | WS_SYSMENU
+CAPTION "Set Item Cost"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,129,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,129,21,50,14
+    LTEXT           "Item Code:",IDC_STATIC,11,17,35,8
+    LTEXT           "",IDC_ITEM,57,15,59,12,0,WS_EX_STATICEDGE
+    CONTROL         "Progress1",IDC_PROGRESS1,"msctls_progress32",WS_BORDER,
+                    7,44,166,12
+    CONTROL         "Progress1",IDC_PROGRESS2,"msctls_progress32",WS_BORDER,
+                    7,58,166,12
+END
+
+IDD_PTYPE DIALOG DISCARDABLE  0, 0, 265, 162
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | 
+    WS_CAPTION | WS_SYSMENU
+CAPTION "Payment Type"
+MENU 256
+FONT 12, "MS Sans Serif"
+BEGIN
+    LTEXT           "&Code",IDC_STATIC1,7,47,54,14
+    EDITTEXT        IDC_EDIT1,66,47,46,14,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    ES_READONLY | WS_VSCROLL
+    LTEXT           "&Payment Type",IDC_STATIC2,7,68,49,14
+    EDITTEXT        IDC_EDIT2,66,67,113,14,ES_AUTOHSCROLL
+    LTEXT           "&Remarks",IDC_STATIC3,7,93,49,13
+    EDITTEXT        IDC_EDIT3,66,92,153,14,ES_AUTOHSCROLL
+END
+
+IDD_INV DIALOGEX 0, 0, 562, 308
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | 
+    WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+MENU 258
+FONT 12, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    LTEXT           "&Invoice No.",IDC_STATIC,7,30,38,11
+    EDITTEXT        IDC_EDIT1,54,29,60,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    ES_READONLY | WS_VSCROLL
+    RTEXT           "&Date of Invoice",IDC_STATIC,278,29,55,11
+    EDITTEXT        IDC_EDIT2,341,29,51,12,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "&A/C Code",IDC_STATIC4,7,44,35,11,SS_NOTIFY,
+                    WS_EX_ACCEPTFILES
+    EDITTEXT        IDC_EDIT4,54,44,60,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_VSCROLL
+    LTEXT           "ACCODE",IDC_LABEL4,117,44,150,11,0,WS_EX_STATICEDGE
+    LTEXT           "&Staff",IDC_STATIC5,7,57,33,12,SS_NOTIFY,
+                    WS_EX_ACCEPTFILES
+    EDITTEXT        IDC_EDIT5,54,57,60,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    WS_VSCROLL
+    LTEXT           "STAFF",IDC_LABEL5,117,57,150,12
+    RTEXT           "&Terms",IDC_STATIC,311,63,22,12
+    EDITTEXT        IDC_EDIT6,341,62,28,12,ES_RIGHT | ES_AUTOHSCROLL
+    LTEXT           "&Remarks",IDC_STATIC,7,91,35,12
+    EDITTEXT        IDC_EDIT8,54,91,338,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT9,54,105,338,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_MSFLEXGRID1,
+                    "{6262D3A0-531B-11CF-91F6-C2863C385E30}",WS_TABSTOP,61,
+                    126,384,110
+    RTEXT           "Du&e Date",IDC_STATIC,291,45,42,11
+    EDITTEXT        IDC_EDIT3,341,45,51,12,ES_AUTOHSCROLL | ES_READONLY
+    PUSHBUTTON      "Pick Ticket",IDC_BUTTON1,8,241,43,14
+    PUSHBUTTON      "Export Sales Invoice To AR",IDC_BUTTON2,7,275,96,14,NOT 
+                    WS_VISIBLE | WS_DISABLED,WS_EX_TRANSPARENT
+    CONTROL         "",IDC_TOTAL15,"{978C9E23-D4B0-11CE-BF2D-00AA003F40D0}",
+                    0x0,251,254,42,12
+    CONTROL         "",IDC_TOTAL9,"{978C9E23-D4B0-11CE-BF2D-00AA003F40D0}",
+                    0x0,251,240,43,12
+    RTEXT           "Total Qty",IDC_STATIC,210,241,37,11
+    PUSHBUTTON      "Pick By Date",IDC_BUTTON3,55,241,50,14
+    RTEXT           "&Tax (%)",IDC_STATIC,419,29,27,12,NOT WS_VISIBLE
+    EDITTEXT        IDC_EDIT7,443,29,31,12,ES_RIGHT | ES_AUTOHSCROLL | NOT 
+                    WS_VISIBLE
+    CONTROL         "",IDC_TOTAL16,"{978C9E23-D4B0-11CE-BF2D-00AA003F40D0}",
+                    0x0,337,240,55,12
+    RTEXT           "Total RM",IDC_STATIC,305,241,30,11
+    RTEXT           "Total SST",IDC_STATIC,212,254,37,11
+    LTEXT           "Days",IDC_STATIC,375,64,17,8
+    LTEXT           "&Payment Type",IDC_STATIC10,7,71,47,12,SS_NOTIFY,
+                    WS_EX_ACCEPTFILES
+    EDITTEXT        IDC_EDIT10,54,71,60,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    WS_VSCROLL
+    LTEXT           "PAYMENT TYPE",IDC_LABEL10,117,71,150,12
+    PUSHBUTTON      "Update Payment Status",IDC_BUTTON4,7,259,98,14
+    RTEXT           "Pay Status",IDC_STATIC,124,242,37,11
+    EDITTEXT        IDC_EDIT11,168,241,44,12,ES_AUTOHSCROLL | ES_READONLY
+    RTEXT           "Payment Date",IDC_STATIC,281,78,53,8
+    EDITTEXT        IDC_EDIT12,340,76,52,12,ES_AUTOHSCROLL | ES_READONLY
+END
+
+IDD_INVITEM DIALOGEX 0, 0, 299, 155
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Sales Information"
+FONT 10, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    LTEXT           "&Ticket No.",IDC_STATIC,10,42,35,12
+    EDITTEXT        IDC_EDIT3,49,42,45,12,ES_UPPERCASE | ES_AUTOHSCROLL
+    LTEXT           "&DO No.",IDC_STATIC,115,42,24,12
+    EDITTEXT        IDC_EDIT4,140,42,50,12,ES_AUTOHSCROLL
+    LTEXT           "&Date",IDC_STATIC,194,42,20,12
+    EDITTEXT        IDC_EDIT5,218,42,46,12,ES_AUTOHSCROLL
+    LTEXT           "&Vehicle No.",IDC_STATIC,10,60,35,12
+    EDITTEXT        IDC_EDIT6,49,60,45,12,ES_AUTOHSCROLL
+    LTEXT           "&Product",IDC_STATIC,10,74,35,12
+    EDITTEXT        IDC_EDIT7,49,74,45,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    WS_VSCROLL
+    LTEXT           "&Name",IDC_STATIC,10,95,35,12
+    EDITTEXT        IDC_EDIT8,49,95,235,12,ES_AUTOHSCROLL
+    LTEXT           "&Qty",IDC_STATIC,10,115,20,12
+    EDITTEXT        IDC_EDIT9,10,128,25,12,ES_RIGHT | ES_AUTOHSCROLL
+    LTEXT           "&Price",IDC_STATIC,41,115,18,12
+    EDITTEXT        IDC_EDIT10,38,128,24,12,ES_RIGHT | ES_AUTOHSCROLL
+    LTEXT           "Gross Amt",IDC_STATIC,66,115,33,12
+    EDITTEXT        IDC_EDIT11,65,128,31,12,ES_RIGHT | ES_AUTOHSCROLL
+    LTEXT           "&Tax Code",IDC_STATIC,102,115,32,10,SS_NOTIFY,
+                    WS_EX_ACCEPTFILES
+    EDITTEXT        IDC_EDIT12,99,128,37,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    WS_VSCROLL
+    EDITTEXT        IDC_EDIT14,184,128,21,12,ES_RIGHT | ES_UPPERCASE | 
+                    ES_AUTOHSCROLL
+    RTEXT           "%",IDC_PRICE2,181,115,18,10
+    LTEXT           "&Tax Amt",IDC_STATIC,210,115,33,10
+    EDITTEXT        IDC_EDIT15,209,128,29,12,ES_RIGHT | ES_UPPERCASE | 
+                    ES_AUTOHSCROLL | ES_READONLY | WS_DISABLED
+    LTEXT           "&Sub-Total",IDC_STATIC,249,115,46,10
+    EDITTEXT        IDC_EDIT16,241,128,45,12,ES_RIGHT | ES_UPPERCASE | 
+                    ES_AUTOHSCROLL | ES_READONLY | WS_DISABLED
+    CONTROL         "SST Inclusive",IDC_EDIT13,"Button",BS_AUTOCHECKBOX | 
+                    BS_LEFTTEXT | BS_MULTILINE | WS_TABSTOP,139,124,39,19
+    CONTROL         "",IDC_LABEL7,"{978C9E23-D4B0-11CE-BF2D-00AA003F40D0}",
+                    0x0,97,74,186,12
+END
+
+IDD_AUTOINV DIALOG DISCARDABLE  0, 0, 169, 103
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 10, "MS Sans Serif"
+BEGIN
+    LTEXT           "Invoice's Date As On",IDC_STATIC,6,42,79,11
+    EDITTEXT        IDC_EDIT1,87,42,64,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT2,87,59,64,12,ES_AUTOHSCROLL | ES_READONLY | NOT 
+                    WS_VISIBLE
+END
+
+IDD_LOGERR DIALOGEX 0, 0, 287, 135
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 10, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    LTEXT           "&USER ID",IDC_STATIC,55,59,30,10
+    EDITTEXT        IDC_EDIT2,96,58,45,13,ES_UPPERCASE | ES_AUTOHSCROLL
+    LTEXT           "&Password",IDC_STATIC,54,83,36,9
+    EDITTEXT        IDC_EDIT3,96,81,99,13,ES_UPPERCASE | ES_PASSWORD | 
+                    ES_AUTOHSCROLL
+    PUSHBUTTON      "&OK",IDOK,57,114,50,14
+    PUSHBUTTON      "&Cancel",IDCANCEL,121,114,50,14
+    LTEXT           "&DATE",IDC_STATIC,54,37,26,10
+    EDITTEXT        IDC_EDIT1,96,35,54,14,ES_AUTOHSCROLL | NOT WS_BORDER,
+                    WS_EX_STATICEDGE
+    LTEXT           "",IDC_LABEL2,148,59,120,14
+    LTEXT           "Purpose:",IDC_STATIC,19,16,29,8
+    EDITTEXT        IDC_EDIT4,58,13,175,14,ES_AUTOHSCROLL | ES_READONLY
+END
+
+IDD_TWO DIALOGEX 0, 0, 245, 90
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 10, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    LTEXT           "&From Date",IDC_STATIC1,34,34,36,10
+    EDITTEXT        IDC_EDIT1,82,34,47,12,ES_AUTOHSCROLL | NOT WS_BORDER,
+                    WS_EX_STATICEDGE
+    LTEXT           "&To",IDC_STATIC2,138,34,10,12
+    EDITTEXT        IDC_EDIT2,153,34,47,12,ES_AUTOHSCROLL | NOT WS_BORDER,
+                    WS_EX_STATICEDGE
+    LTEXT           "&PAGE",IDC_STATIC3,33,58,20,12
+    EDITTEXT        IDC_EDIT3,70,58,15,12,ES_RIGHT | ES_AUTOHSCROLL
+END
+
+IDD_WB2 DIALOGEX 0, 0, 498, 355
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | 
+    WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+MENU 258
+FONT 10, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    LTEXT           "&Ticket No.",IDC_STATIC1,10,42,46,12
+    EDITTEXT        IDC_EDIT1,68,42,66,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    ES_READONLY | WS_VSCROLL
+    LTEXT           "&Vehicle No./IC No.",IDC_STATIC2,9,58,58,12,SS_NOTIFY,
+                    WS_EX_ACCEPTFILES
+    EDITTEXT        IDC_EDIT2,67,58,98,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    ES_READONLY
+    LTEXT           "&Trailer No.",IDC_STATIC3,168,59,34,12,SS_NOTIFY,
+                    WS_EX_ACCEPTFILES
+    EDITTEXT        IDC_EDIT3,203,59,52,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    ES_READONLY
+    LTEXT           "&Container No.",IDC_STATIC4,257,59,46,12,SS_NOTIFY,
+                    WS_EX_ACCEPTFILES
+    EDITTEXT        IDC_EDIT4,305,59,76,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    ES_READONLY
+    LTEXT           "Ticket &Date",IDC_STATIC5,387,43,41,12
+    EDITTEXT        IDC_EDIT5,435,43,55,14,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "Ticket &Time",IDC_STATIC6,387,58,42,9
+    EDITTEXT        IDC_EDIT6,435,58,55,14,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "&A/C Code",IDC_STATIC7,9,73,46,12,SS_NOTIFY,
+                    WS_EX_ACCEPTFILES
+    EDITTEXT        IDC_EDIT7,67,73,45,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    ES_READONLY | WS_VSCROLL
+    LTEXT           "ACCODE",IDC_LABEL7,117,73,191,12,0,WS_EX_STATICEDGE
+    LTEXT           "&Transporter",IDC_STATIC8,9,88,46,12,SS_NOTIFY,
+                    WS_EX_ACCEPTFILES
+    EDITTEXT        IDC_EDIT8,67,88,45,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    ES_READONLY | WS_VSCROLL
+    LTEXT           "Transp",IDC_LABEL8,117,88,191,12,0,WS_EX_STATICEDGE
+    LTEXT           "&Driver",IDC_STATIC9,9,102,46,12,SS_NOTIFY,
+                    WS_EX_ACCEPTFILES
+    EDITTEXT        IDC_EDIT9,67,102,45,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    ES_READONLY | WS_VSCROLL
+    LTEXT           "DRIVER",IDC_LABEL9,117,102,191,12,0,WS_EX_STATICEDGE
+    LTEXT           "&DO No.",IDC_STATIC12,387,73,26,12
+    EDITTEXT        IDC_EDIT10,435,73,55,14,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "&Remarks",IDC_STATIC18,9,129,46,12
+    EDITTEXT        IDC_EDIT11,67,126,242,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    ES_READONLY
+    EDITTEXT        IDC_EDIT12,67,139,242,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    ES_READONLY
+    LTEXT           "&Payment",IDC_STATIC14,9,153,46,12,SS_NOTIFY,
+                    WS_EX_ACCEPTFILES
+    EDITTEXT        IDC_EDIT14,67,153,45,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    ES_READONLY | WS_VSCROLL
+    LTEXT           "PTYPE",IDC_LABEL14,117,153,191,12,0,WS_EX_STATICEDGE
+    LTEXT           "&CHQ No.",IDC_STATIC13,313,153,30,12
+    EDITTEXT        IDC_EDIT15,349,153,56,14,ES_AUTOHSCROLL | ES_READONLY
+    CONTROL         "Ticket &Printed",IDC_EDIT13,"Button",BS_AUTOCHECKBOX | 
+                    BS_LEFTTEXT | WS_TABSTOP,385,90,60,10
+    EDITTEXT        IDC_EDIT19,48,274,45,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    ES_READONLY | WS_VSCROLL
+    LTEXT           "DRIVER",IDC_LABEL19,97,274,134,12,0,WS_EX_STATICEDGE
+    LTEXT           "Total Net Weight (kg)",IDC_STATIC,270,275,69,8
+    CONTROL         "",IDC_TOTAL9,"{978C9E23-D4B0-11CE-BF2D-00AA003F40D0}",
+                    0x0,344,272,44,15
+    LTEXT           "Total Amount",IDC_STATIC,392,275,43,8
+    CONTROL         "",IDC_TOTAL11,"{978C9E23-D4B0-11CE-BF2D-00AA003F40D0}",
+                    0x0,442,272,44,15
+    LTEXT           "&Pay By",IDC_STATIC,16,274,25,12,SS_NOTIFY,
+                    WS_EX_ACCEPTFILES
+    LTEXT           "&User ",IDC_STATIC,15,292,25,12,SS_NOTIFY,
+                    WS_EX_ACCEPTFILES
+    CONTROL         "",IDC_USER,"{978C9E23-D4B0-11CE-BF2D-00AA003F40D0}",0x0,
+                    48,292,44,15
+    CONTROL         "",ID_SHOWPRINTCOUNTER,
+                    "{978C9E23-D4B0-11CE-BF2D-00AA003F40D0}",0x0,138,42,20,
+                    12
+    PUSHBUTTON      "View Snapshot",IDC_BUTTON2,97,293,68,14
+    CONTROL         "",IDC_MSFLEXGRID1,
+                    "{6262D3A0-531B-11CF-91F6-C2863C385E30}",WS_TABSTOP,7,
+                    175,483,83
+END
+
+IDD_TRCV DIALOGEX 0, 0, 612, 354
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+MENU 258
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_STATIC1,"{978C9E23-D4B0-11CE-BF2D-00AA003F40D0}",
+                    0x0,7,36,89,15
+    EDITTEXT        IDC_EDIT1,99,38,66,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_VSCROLL
+    LTEXT           "&Vehicle No./IC No.",IDC_STATIC2,9,54,58,12,SS_NOTIFY,
+                    WS_EX_ACCEPTFILES
+    EDITTEXT        IDC_EDIT2,67,54,98,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    ES_READONLY
+    LTEXT           "&A/C Code",IDC_STATIC5,9,69,46,12,SS_NOTIFY,
+                    WS_EX_ACCEPTFILES
+    EDITTEXT        IDC_EDIT6,67,84,45,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    ES_READONLY | WS_VSCROLL
+    LTEXT           "Transp",IDC_LABEL6,117,84,191,12,0,WS_EX_STATICEDGE
+    LTEXT           "&Driver",IDC_STATIC7,9,98,46,12,SS_NOTIFY,
+                    WS_EX_ACCEPTFILES
+    EDITTEXT        IDC_EDIT7,67,98,45,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    ES_READONLY | WS_VSCROLL
+    LTEXT           "DRIVER",IDC_LABEL7,117,98,191,12,0,WS_EX_STATICEDGE
+    LTEXT           "&DO No.",IDC_STATIC10,419,69,26,12
+    LTEXT           "Ticket &Date",IDC_STATIC3,419,39,41,12
+    EDITTEXT        IDC_EDIT3,467,39,55,14,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "Ticket &Time",IDC_STATIC4,419,54,42,9
+    EDITTEXT        IDC_EDIT4,467,54,55,14,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT8,467,69,55,14,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "&Remarks",IDC_STATIC18,9,125,46,12
+    LTEXT           "&Transporter",IDC_STATIC6,9,84,46,12,SS_NOTIFY,
+                    WS_EX_ACCEPTFILES
+    EDITTEXT        IDC_EDIT5,67,69,45,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    ES_READONLY | WS_VSCROLL
+    LTEXT           "ACCODE",IDC_LABEL5,117,69,191,12,0,WS_EX_STATICEDGE
+    CONTROL         "",IDC_MSFLEXGRID1,
+                    "{6262D3A0-531B-11CF-91F6-C2863C385E30}",WS_TABSTOP,15,
+                    165,511,98
+    LTEXT           "Total Net Weight (kg)",IDC_STATIC,309,271,69,8
+    CONTROL         "",IDC_TOTAL9,"{978C9E23-D4B0-11CE-BF2D-00AA003F40D0}",
+                    0x0,383,268,44,15
+    LTEXT           "Total Amount",IDC_STATIC,431,271,43,8
+    CONTROL         "",IDC_TOTAL11,"{978C9E23-D4B0-11CE-BF2D-00AA003F40D0}",
+                    0x0,481,268,44,15
+    CONTROL         "Ticket &Printed",IDC_EDIT11,"Button",BS_AUTOCHECKBOX | 
+                    BS_LEFTTEXT | WS_TABSTOP,417,86,60,10
+    EDITTEXT        IDC_EDIT9,67,122,242,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    ES_READONLY
+    EDITTEXT        IDC_EDIT10,67,135,242,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    ES_READONLY
+    LTEXT           "&Payment",IDC_STATIC12,9,149,46,12,SS_NOTIFY,
+                    WS_EX_ACCEPTFILES
+    EDITTEXT        IDC_EDIT12,67,149,45,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    ES_READONLY | WS_VSCROLL
+    LTEXT           "PTYPE",IDC_LABEL12,117,149,191,12,0,WS_EX_STATICEDGE
+    LTEXT           "&CHQ No.",IDC_STATIC11,313,149,30,12
+    EDITTEXT        IDC_EDIT13,349,149,56,14,ES_AUTOHSCROLL | ES_READONLY
+END
+
+IDD_EXEAP DIALOG DISCARDABLE  0, 0, 241, 92
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Export Purchase Ticket To AP"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "DateTimePicker1",IDC_DATETIMEPICKER1,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | WS_TABSTOP,17,36,59,15
+    LTEXT           "To",IDC_STATIC,88,39,10,8
+    CONTROL         "DateTimePicker1",IDC_DATETIMEPICKER2,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | WS_TABSTOP,106,36,59,15
+    DEFPUSHBUTTON   "GO",IDOK,171,36,50,14
+    LTEXT           "Date of Ticket",IDC_STATIC,17,21,46,8
+    CONTROL         "Progress1",IDC_PROGRESS1,"msctls_progress32",WS_BORDER,
+                    17,59,205,8
+    LTEXT           "",IDC_TICKET,17,71,205,8
+END
+
+IDD_PICKBYDATE DIALOG DISCARDABLE  0, 0, 241, 92
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Export Purchase Ticket To AP"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "DateTimePicker1",IDC_DATETIMEPICKER1,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | WS_TABSTOP,17,36,59,15
+    LTEXT           "To",IDC_STATIC,88,39,10,8
+    CONTROL         "DateTimePicker1",IDC_DATETIMEPICKER2,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | WS_TABSTOP,106,36,59,15
+    DEFPUSHBUTTON   "GO",IDOK,171,36,50,14
+    LTEXT           "Date of Ticket",IDC_STATIC,17,21,46,8
+    CONTROL         "Progress1",IDC_PROGRESS1,"msctls_progress32",WS_BORDER,
+                    17,59,205,8
+    LTEXT           "",IDC_TICKET,17,71,205,8
+END
+
+IDD_DoSnapshot DIALOG DISCARDABLE  0, 0, 297, 210
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Snapshot photo"
+FONT 10, "System"
+BEGIN
+    CONTROL         "Progress1",IDC_PROGRESS1,"msctls_progress32",WS_BORDER,
+                    7,197,283,6
+END
+
+IDD_MENU_FORM DIALOGEX 0, 0, 912, 388
+STYLE WS_CHILD | WS_BORDER
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Detail Report",ID00011,14,38,157,14,BS_LEFT
+    PUSHBUTTON      "Detail Report",ID00012,14,54,157,14,BS_LEFT
+    ICON            IDI_ICON6,IDC_STATIC,10,16,21,20
+    CONTROL         "",IDC_LABEL1,"{978C9E23-D4B0-11CE-BF2D-00AA003F40D0}",
+                    0x0,43,20,128,16
+    PUSHBUTTON      "Detail Report",ID00013,14,70,157,14,BS_LEFT
+    PUSHBUTTON      "Unbill Sales Ticket (21 days rule)",IDC_BUTTON2,47,97,
+                    178,21
+    EDITTEXT        IDC_EDIT1,17,97,27,20,ES_RIGHT | ES_AUTOHSCROLL
+    LTEXT           "",IDC_PREVIEW,628,13,275,179,0,WS_EX_STATICEDGE
+    LTEXT           "",IDC_PREVIEW2,628,197,275,179,0,WS_EX_STATICEDGE
+END
+
+IDD_PINV DIALOGEX 0, 0, 823, 439
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+MENU 258
+FONT 12, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    LTEXT           "&Invoice No.",IDC_STATIC,7,30,38,11
+    EDITTEXT        IDC_EDIT1,54,29,60,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    ES_READONLY | WS_VSCROLL
+    RTEXT           "&Date of Invoice",IDC_STATIC,278,29,55,11
+    EDITTEXT        IDC_EDIT2,339,28,51,12,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "&A/C Code",IDC_STATIC4,7,44,35,11,SS_NOTIFY,
+                    WS_EX_ACCEPTFILES
+    EDITTEXT        IDC_EDIT4,54,44,60,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_VSCROLL
+    LTEXT           "ACCODE",IDC_LABEL4,117,44,150,11,0,WS_EX_STATICEDGE
+    LTEXT           "&Staff",IDC_STATIC5,7,57,33,12,SS_NOTIFY,
+                    WS_EX_ACCEPTFILES
+    EDITTEXT        IDC_EDIT5,54,57,60,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    WS_VSCROLL
+    LTEXT           "STAFF",IDC_LABEL5,117,57,150,12
+    RTEXT           "&Terms",IDC_STATIC,311,63,22,12
+    EDITTEXT        IDC_EDIT6,339,62,28,12,ES_RIGHT | ES_AUTOHSCROLL
+    LTEXT           "&Remarks",IDC_STATIC,6,95,35,12
+    EDITTEXT        IDC_EDIT8,53,94,338,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT9,53,108,338,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_MSFLEXGRID1,
+                    "{6262D3A0-531B-11CF-91F6-C2863C385E30}",WS_TABSTOP,8,
+                    129,384,110
+    RTEXT           "Du&e Date",IDC_STATIC,291,45,42,11
+    EDITTEXT        IDC_EDIT3,339,45,51,12,ES_AUTOHSCROLL | ES_READONLY
+    PUSHBUTTON      "Pick Ticket",IDC_BUTTON1,7,244,43,14
+    PUSHBUTTON      "Export Sales Invoice To AR",IDC_BUTTON2,13,286,96,14,
+                    NOT WS_VISIBLE | WS_DISABLED
+    CONTROL         "",IDC_TOTAL15,"{978C9E23-D4B0-11CE-BF2D-00AA003F40D0}",
+                    0x0,252,258,43,12
+    CONTROL         "",IDC_TOTAL9,"{978C9E23-D4B0-11CE-BF2D-00AA003F40D0}",
+                    0x0,252,244,43,12
+    RTEXT           "Total Qty",IDC_STATIC,213,245,32,11
+    PUSHBUTTON      "Pick By Date",IDC_BUTTON3,53,244,50,14
+    RTEXT           "&Tax (%)",IDC_STATIC,419,29,27,12,NOT WS_VISIBLE
+    EDITTEXT        IDC_EDIT7,443,29,31,12,ES_RIGHT | ES_AUTOHSCROLL | NOT 
+                    WS_VISIBLE
+    CONTROL         "",IDC_TOTAL16,"{978C9E23-D4B0-11CE-BF2D-00AA003F40D0}",
+                    0x0,336,244,55,12
+    RTEXT           "Total RM",IDC_STATIC,304,245,30,11
+    RTEXT           "Total SST",IDC_STATIC,210,259,37,11
+    LTEXT           "Days",IDC_STATIC,375,64,17,8
+    LTEXT           "&Payment Type",IDC_STATIC10,7,71,47,12,SS_NOTIFY,
+                    WS_EX_ACCEPTFILES
+    EDITTEXT        IDC_EDIT10,54,71,60,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    WS_VSCROLL
+    LTEXT           "PAYMENT TYPE",IDC_LABEL10,117,71,150,12
+    PUSHBUTTON      "Update Payment Status",IDC_BUTTON4,6,263,98,14
+    RTEXT           "Pay Status",IDC_STATIC,122,244,37,11
+    EDITTEXT        IDC_EDIT11,166,244,44,12,ES_AUTOHSCROLL | ES_READONLY
+    RTEXT           "Payment Date",IDC_STATIC,280,80,53,8
+    EDITTEXT        IDC_EDIT12,339,78,50,12,ES_AUTOHSCROLL | ES_READONLY
+END
+
+IDD_PINVITEM DIALOGEX 0, 0, 294, 140
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 12, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    LTEXT           "&Ticket No.",IDC_STATIC,21,45,31,10
+    EDITTEXT        IDC_EDIT3,56,45,40,10,ES_UPPERCASE | ES_AUTOHSCROLL
+    LTEXT           "&DO No.",IDC_STATIC,115,45,21,10
+    EDITTEXT        IDC_EDIT4,137,45,44,10,ES_AUTOHSCROLL
+    LTEXT           "&Date",IDC_STATIC,185,45,18,10
+    EDITTEXT        IDC_EDIT5,206,45,41,10,ES_AUTOHSCROLL
+    LTEXT           "&Vehicle No.",IDC_STATIC,21,59,31,10
+    EDITTEXT        IDC_EDIT6,56,59,40,10,ES_AUTOHSCROLL
+    LTEXT           "&Product",IDC_STATIC,21,70,31,10
+    EDITTEXT        IDC_EDIT7,56,70,40,10,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    WS_VSCROLL
+    LTEXT           "&Name",IDC_STATIC,21,87,31,10
+    EDITTEXT        IDC_EDIT8,56,87,217,10,ES_AUTOHSCROLL
+    LTEXT           "&Qty",IDC_STATIC,21,103,18,10
+    EDITTEXT        IDC_EDIT9,21,114,22,10,ES_RIGHT | ES_AUTOHSCROLL
+    LTEXT           "&Price",IDC_STATIC,49,103,16,10
+    EDITTEXT        IDC_EDIT10,46,114,21,10,ES_RIGHT | ES_AUTOHSCROLL
+    LTEXT           "Gross Amt",IDC_STATIC,71,103,29,10
+    EDITTEXT        IDC_EDIT11,70,114,28,10,ES_RIGHT | ES_AUTOHSCROLL
+    LTEXT           "&Tax Code",IDC_STATIC,103,103,28,8,SS_NOTIFY,
+                    WS_EX_ACCEPTFILES
+    EDITTEXT        IDC_EDIT12,100,114,33,10,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    WS_VSCROLL
+    EDITTEXT        IDC_EDIT14,183,112,19,10,ES_RIGHT | ES_UPPERCASE | 
+                    ES_AUTOHSCROLL
+    RTEXT           "%",IDC_PRICE2,180,102,16,8
+    LTEXT           "&Tax Amt",IDC_STATIC,206,102,29,8
+    EDITTEXT        IDC_EDIT15,205,112,26,10,ES_RIGHT | ES_UPPERCASE | 
+                    ES_AUTOHSCROLL | ES_READONLY | WS_DISABLED
+    LTEXT           "&Sub-Total",IDC_STATIC,240,102,41,8
+    EDITTEXT        IDC_EDIT16,233,112,40,10,ES_RIGHT | ES_UPPERCASE | 
+                    ES_AUTOHSCROLL | ES_READONLY | WS_DISABLED
+    CONTROL         "SST Inclusive",IDC_EDIT13,"Button",BS_AUTOCHECKBOX | 
+                    BS_LEFTTEXT | BS_MULTILINE | WS_TABSTOP,138,108,38,15
+    CONTROL         "",IDC_LABEL7,"{978C9E23-D4B0-11CE-BF2D-00AA003F40D0}",
+                    0x0,99,70,173,10
+END
+
+IDD_EXEAR DIALOG DISCARDABLE  0, 0, 262, 93
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Export Sales Ticket To AR"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "DateTimePicker1",IDC_DATETIMEPICKER1,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | WS_TABSTOP,17,36,59,15
+    LTEXT           "To",IDC_STATIC,88,39,10,8
+    CONTROL         "DateTimePicker1",IDC_DATETIMEPICKER2,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | WS_TABSTOP,106,36,59,15
+    DEFPUSHBUTTON   "GO",IDOK,171,36,50,14
+    LTEXT           "Date of Ticket",IDC_STATIC,17,21,46,8
+    CONTROL         "Progress1",IDC_PROGRESS1,"msctls_progress32",WS_BORDER,
+                    17,59,205,8
+    LTEXT           "",IDC_TICKET,17,71,205,8
+END
+
+IDD_GENDER DIALOG DISCARDABLE  0, 0, 372, 180
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Gender"
+MENU 258
+FONT 14, "MS Sans Serif"
+BEGIN
+    LTEXT           "Code",IDC_STATIC1,7,57,45,14
+    EDITTEXT        IDC_EDIT1,59,57,125,14,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    ES_READONLY | WS_VSCROLL
+    LTEXT           "Description",IDC_STATIC2,7,81,45,14
+    EDITTEXT        IDC_EDIT2,59,81,254,14,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "Remarks",IDC_STATIC3,7,105,45,14
+    EDITTEXT        IDC_EDIT3,59,105,254,13,ES_MULTILINE | ES_READONLY | 
+                    ES_WANTRETURN
+END
+
+IDD_TTYPE DIALOG DISCARDABLE  0, 0, 547, 205
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "TTYPE"
+FONT 14, "MS Sans Serif"
+BEGIN
+    LTEXT           "Code",IDC_STATIC1,7,57,45,14
+    EDITTEXT        IDC_EDIT1,59,57,125,14,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    ES_READONLY | WS_VSCROLL
+    LTEXT           "Description",IDC_STATIC2,7,81,45,14
+    EDITTEXT        IDC_EDIT2,59,81,254,14,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "Remarks",IDC_STATIC3,7,105,45,14
+    EDITTEXT        IDC_EDIT3,59,105,254,14,ES_MULTILINE | ES_READONLY | 
+                    ES_WANTRETURN
+END
+
+IDD_NTLY DIALOG DISCARDABLE  0, 0, 314, 115
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Nationality"
+MENU 258
+FONT 14, "MS Sans Serif"
+BEGIN
+    LTEXT           "Code",IDC_STATIC1,11,45,37,12
+    EDITTEXT        IDC_EDIT1,53,45,102,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    ES_READONLY | WS_VSCROLL
+    LTEXT           "Description",IDC_STATIC2,11,65,37,12
+    EDITTEXT        IDC_EDIT2,53,65,208,12,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "Remarks",IDC_STATIC3,11,85,37,12
+    EDITTEXT        IDC_EDIT3,53,85,208,12,ES_MULTILINE | ES_READONLY | 
+                    ES_WANTRETURN
+END
+
+IDD_BTYPE DIALOG DISCARDABLE  0, 0, 313, 132
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Bussiness Type"
+MENU 258
+FONT 14, "MS Sans Serif"
+BEGIN
+    LTEXT           "Code",IDC_STATIC1,16,50,37,12
+    EDITTEXT        IDC_EDIT1,58,50,102,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    ES_READONLY | WS_VSCROLL
+    LTEXT           "Description",IDC_STATIC2,16,70,37,12
+    EDITTEXT        IDC_EDIT2,58,70,208,12,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "Remarks",IDC_STATIC3,16,90,37,12
+    EDITTEXT        IDC_EDIT3,58,90,208,14,ES_MULTILINE | ES_READONLY | 
+                    ES_WANTRETURN
+END
+
+IDD_RISKTYPE DIALOG DISCARDABLE  0, 0, 578, 238
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Risk Type"
+MENU 258
+FONT 14, "MS Sans Serif"
+BEGIN
+    LTEXT           "Code",IDC_STATIC1,16,50,37,12
+    EDITTEXT        IDC_EDIT1,58,50,102,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    ES_READONLY | WS_VSCROLL
+    LTEXT           "Description",IDC_STATIC2,16,70,37,12
+    EDITTEXT        IDC_EDIT2,58,70,208,12,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "Remarks",IDC_STATIC3,16,90,37,12
+    EDITTEXT        IDC_EDIT3,58,90,208,13,ES_MULTILINE | ES_READONLY | 
+                    ES_WANTRETURN
+END
+
+IDD_TICNO DIALOG DISCARDABLE  0, 0, 545, 184
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Twin Code"
+MENU 258
+FONT 14, "MS Sans Serif"
+BEGIN
+    LTEXT           "Code",IDC_STATIC1,16,50,37,12
+    EDITTEXT        IDC_EDIT1,58,50,102,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    ES_READONLY | WS_VSCROLL
+    LTEXT           "Description",IDC_STATIC2,16,70,37,12
+    EDITTEXT        IDC_EDIT2,58,70,208,12,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "Remarks",IDC_STATIC3,16,90,37,12
+    EDITTEXT        IDC_EDIT3,58,90,208,14,ES_MULTILINE | ES_READONLY | 
+                    ES_WANTRETURN
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "Domain Connect Sdn Bhd\0"
+            VALUE "FileDescription", "EXPERT PALSTIC SDN BHD\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "menu\0"
+            VALUE "LegalCopyright", "Copyright (C) 2023\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "menu.EXE\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "EXPERT PALSTIC SDN BHD2\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_GLCODE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 396
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 243
+    END
+
+    IDD_GLGROUP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 347
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 223
+    END
+
+    IDD_SPITEM, DIALOG
+    BEGIN
+        RIGHTMARGIN, 292
+        BOTTOMMARGIN, 93
+    END
+
+    IDD_SWB, DIALOG
+    BEGIN
+        RIGHTMARGIN, 387
+        BOTTOMMARGIN, 267
+    END
+
+    IDD_DDATA, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 201
+    END
+
+    IDD_PROFILE, DIALOG
+    BEGIN
+        LEFTMARGIN, 1
+        RIGHTMARGIN, 365
+        TOPMARGIN, 6
+    END
+
+    IDD_WB, DIALOG
+    BEGIN
+        RIGHTMARGIN, 547
+        BOTTOMMARGIN, 365
+    END
+
+    IDD_DESPATCH, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 358
+    END
+
+    IDD_DRIVER, DIALOG
+    BEGIN
+        RIGHTMARGIN, 331
+        BOTTOMMARGIN, 203
+    END
+
+    IDD_VTYPE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 219
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 117
+    END
+
+    IDD_TRANSP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 293
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 170
+    END
+
+    IDD_TENDER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 293
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 170
+    END
+
+    IDD_FGW, DIALOG
+    BEGIN
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 274
+    END
+
+    IDD_FASTSEARCH, DIALOG
+    BEGIN
+        RIGHTMARGIN, 158
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 147
+    END
+
+    IDD_SIC, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 88
+    END
+
+    IDD_PTYPE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 258
+        VERTGUIDE, 66
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 155
+    END
+
+    IDD_INV, DIALOG
+    BEGIN
+        RIGHTMARGIN, 554
+        VERTGUIDE, 7
+        VERTGUIDE, 54
+        BOTTOMMARGIN, 306
+    END
+
+    IDD_INVITEM, DIALOG
+    BEGIN
+        RIGHTMARGIN, 295
+        BOTTOMMARGIN, 149
+    END
+
+    IDD_AUTOINV, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 88
+    END
+
+    IDD_LOGERR, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 275
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 128
+    END
+
+    IDD_TWO, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 241
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 88
+    END
+
+    IDD_WB2, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 491
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 348
+    END
+
+    IDD_DoSnapshot, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 290
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 203
+    END
+
+    IDD_MENU_FORM, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 905
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 381
+    END
+
+    IDD_PINVITEM, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 287
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 133
+    END
+
+    IDD_EXEAR, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 255
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 86
+    END
+
+    IDD_GENDER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 365
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 173
+    END
+
+    IDD_TTYPE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 540
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 198
+    END
+
+    IDD_NTLY, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 307
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 108
+    END
+
+    IDD_BTYPE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 306
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 125
+    END
+
+    IDD_RISKTYPE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 571
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 231
+    END
+
+    IDD_TICNO, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 538
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 177
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_FGW DLGINIT
+BEGIN
+    IDC_COMBO1, 0x403, 5, 0
+0x3020, 0x302e, "\000" 
+    IDC_COMBO1, 0x403, 5, 0
+0x3120, 0x302e, "\000" 
+    IDC_COMBO1, 0x403, 5, 0
+0x3220, 0x302e, "\000" 
+    IDC_COMBO1, 0x403, 5, 0
+0x3320, 0x302e, "\000" 
+    IDC_COMBO1, 0x403, 5, 0
+0x3420, 0x302e, "\000" 
+    IDC_COMBO1, 0x403, 5, 0
+0x3520, 0x302e, "\000" 
+    IDC_COMBO1, 0x403, 5, 0
+0x3620, 0x302e, "\000" 
+    IDC_COMBO1, 0x403, 5, 0
+0x3720, 0x302e, "\000" 
+    IDC_COMBO1, 0x403, 5, 0
+0x3820, 0x302e, "\000" 
+    IDC_COMBO1, 0x403, 5, 0
+0x3920, 0x302e, "\000" 
+    IDC_COMBO1, 0x403, 5, 0
+0x3031, 0x302e, "\000" 
+    IDC_COMBO1, 0x403, 5, 0
+0x3131, 0x302e, "\000" 
+    IDC_COMBO1, 0x403, 5, 0
+0x3231, 0x302e, "\000" 
+    IDC_COMBO1, 0x403, 5, 0
+0x3331, 0x302e, "\000" 
+    IDC_COMBO1, 0x403, 5, 0
+0x3431, 0x302e, "\000" 
+    IDC_COMBO1, 0x403, 5, 0
+0x3531, 0x302e, "\000" 
+    IDC_COMBO1, 0x403, 5, 0
+0x3631, 0x302e, "\000" 
+    IDC_COMBO1, 0x403, 5, 0
+0x3731, 0x302e, "\000" 
+    IDC_COMBO1, 0x403, 5, 0
+0x3831, 0x302e, "\000" 
+    IDC_COMBO1, 0x403, 5, 0
+0x3931, 0x302e, "\000" 
+    IDC_COMBO1, 0x403, 5, 0
+0x3032, 0x302e, "\000" 
+    IDC_COMBO2, 0x403, 5, 0
+0x3020, 0x302e, "\000" 
+    IDC_COMBO2, 0x403, 5, 0
+0x3120, 0x302e, "\000" 
+    IDC_COMBO2, 0x403, 5, 0
+0x3220, 0x302e, "\000" 
+    IDC_COMBO2, 0x403, 5, 0
+0x3320, 0x302e, "\000" 
+    IDC_COMBO2, 0x403, 5, 0
+0x3420, 0x302e, "\000" 
+    IDC_COMBO2, 0x403, 5, 0
+0x3520, 0x302e, "\000" 
+    IDC_COMBO2, 0x403, 5, 0
+0x3620, 0x302e, "\000" 
+    IDC_COMBO2, 0x403, 5, 0
+0x3720, 0x302e, "\000" 
+    IDC_COMBO2, 0x403, 5, 0
+0x3820, 0x302e, "\000" 
+    IDC_COMBO2, 0x403, 5, 0
+0x3920, 0x302e, "\000" 
+    IDC_COMBO2, 0x403, 5, 0
+0x3031, 0x302e, "\000" 
+    IDC_COMBO2, 0x403, 5, 0
+0x3131, 0x302e, "\000" 
+    IDC_COMBO2, 0x403, 5, 0
+0x3231, 0x302e, "\000" 
+    IDC_COMBO2, 0x403, 5, 0
+0x3331, 0x302e, "\000" 
+    IDC_COMBO2, 0x403, 5, 0
+0x3431, 0x302e, "\000" 
+    IDC_COMBO2, 0x403, 5, 0
+0x3531, 0x302e, "\000" 
+    IDC_COMBO2, 0x403, 5, 0
+0x3631, 0x302e, "\000" 
+    IDC_COMBO2, 0x403, 5, 0
+0x3731, 0x302e, "\000" 
+    IDC_COMBO2, 0x403, 5, 0
+0x3831, 0x302e, "\000" 
+    IDC_COMBO2, 0x403, 5, 0
+0x3931, 0x302e, "\000" 
+    IDC_COMBO2, 0x403, 5, 0
+0x3032, 0x302e, "\000" 
+    IDC_TEXTBOX1, 0x37a, 107, 0
+0x0000, 0x0000, 0x0023, 0x0000, 0x0001, 0x0000, 0x001b, 0x0000, 0x0001, 
+0x8001, 0x0000, 0x0000, 0x0000, 0x001a, 0x0000, 0x0002, 0x8001, 0x0001, 
+0x0000, 0x0000, 0x2402, 0x0700, 0x0001, 0x0086, 0x0000, 0x1f00, 0x8048, 
+0xc00c, 0xc0c0, 0xd900, 0x2100, 0x4000, 0x4000, 0x0600, 0x0000, 0xc400, 
+0x001d, 0x3c00, 0x0007, 0x0000, 0x1802, 0x3500, 0x0000, 0x0500, 0x0000, 
+0xd080, 0x0002, 0x0000, 0x0002, 0x4100, 0x6972, 0x6c61, 0x0000, "\000" 
+    0
+END
+
+IDD_WB DLGINIT
+BEGIN
+    IDC_USER, 0x376, 72, 0
+0x0000, 0x0000, 0x0200, 0x0018, 0x0223, 0x0000, 0x0000, 0x0000, 0xff80, 
+0x00ff, 0x0006, 0x0000, 0x0707, 0x0000, 0x031a, 0x0000, 0x0200, 0x0024, 
+0x0035, 0x0000, 0x0014, 0x8000, 0x00a5, 0x0000, 0x0200, 0x0000, 0x694d, 
+0x7263, 0x736f, 0x666f, 0x2074, 0x6153, 0x736e, 0x5320, 0x7265, 0x6669, 
+
+    IDC_MSFLEXGRID1, 0x37a, 306, 0
+0x0024, 0x0000, 0x0037, 0x0032, 0x0045, 0x0036, 0x0037, 0x0031, 0x0032, 
+0x0030, 0x002d, 0x0035, 0x0039, 0x0035, 0x0039, 0x002d, 0x0031, 0x0031, 
+0x0063, 0x0066, 0x002d, 0x0039, 0x0031, 0x0046, 0x0036, 0x002d, 0x0043, 
+0x0032, 0x0038, 0x0036, 0x0033, 0x0043, 0x0033, 0x0038, 0x0035, 0x0045, 
+0x0033, 0x0030, 0x0012, 0x0000, 0x0001, 0x0000, 0x000a, 0x0000, 0x004c, 
+0x0000, 0x0000, 0x4321, 0x1234, 0x0008, 0x0000, 0x63d7, 0x0000, 0x1727, 
+0x0000, 0x6f42, 0x506f, 0x0000, 0x0006, 0x0080, 0x0000, 0x0002, 0x0000, 
+0x0002, 0x0000, 0x0001, 0x0000, 0x0001, 0x0000, 0x0000, 0x0000, 0x0005, 
+0x8000, 0x0008, 0x8000, 0x000f, 0x8000, 0x0012, 0x8000, 0x000d, 0x8000, 
+0x000e, 0x8000, 0x8080, 0x0080, 0xc0c0, 0x00c0, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0001, 0x0000, 0x0001, 0x0000, 0x0000, 0x0000, 0x0001, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0001, 0x0001, 0x0000, 0x0001, 0x0002, 
+0x0003, 0x0000, 0x0000, 0x0003, 0x0000, 0x0001, 0x0001, 0x0000, 0x0001, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x5203, 0x0be3, 0x8f91, 0x11ce, 0xe39d, 
+0xaa00, 0x4b00, 0x51b8, 0x0001, 0x0000, 0x0190, 0x7cdc, 0x0001, 0x4d0d, 
+0x2053, 0x6153, 0x736e, 0x5320, 0x7265, 0x6669, 0x5204, 0x0be3, 0x8f91, 
+0x11ce, 0xe39d, 0xaa00, 0x4b00, 0x51b8, 0x746c, 0x0000, 0x0000, 0x0000, 
+
+    IDC_TOTAL13, 0x376, 72, 0
+0x0000, 0x0000, 0x0200, 0x0018, 0x0223, 0x0000, 0x0000, 0x0000, 0xff80, 
+0x00ff, 0x0006, 0x0000, 0x0918, 0x0000, 0x031a, 0x0000, 0x0200, 0x0024, 
+0x0075, 0x0000, 0x0014, 0x8000, 0x00a5, 0x0000, 0x0200, 0x0002, 0x694d, 
+0x7263, 0x736f, 0x666f, 0x2074, 0x6153, 0x736e, 0x5320, 0x7265, 0x6669, 
+
+    IDC_TOTAL21, 0x376, 72, 0
+0x0000, 0x0000, 0x0200, 0x0018, 0x0223, 0x0000, 0x0000, 0x0000, 0xffff, 
+0x0080, 0x0006, 0x0000, 0x0918, 0x0000, 0x031a, 0x0000, 0x0200, 0x0024, 
+0x0075, 0x0000, 0x0014, 0x8000, 0x00a5, 0x0000, 0x0200, 0x0002, 0x694d, 
+0x7263, 0x736f, 0x666f, 0x2074, 0x6153, 0x736e, 0x5320, 0x7265, 0x6669, 
+
+    IDC_ACAMT, 0x376, 72, 0
+0x0000, 0x0000, 0x0200, 0x0018, 0x0223, 0x0000, 0x0000, 0x0000, 0xffff, 
+0x0080, 0x0006, 0x0000, 0x087a, 0x0000, 0x031a, 0x0000, 0x0200, 0x0024, 
+0x0075, 0x0000, 0x0014, 0x8000, 0x00a5, 0x0000, 0x0200, 0x0002, 0x694d, 
+0x7263, 0x736f, 0x666f, 0x2074, 0x6153, 0x736e, 0x5320, 0x7265, 0x6669, 
+
+    IDC_ACVAR, 0x376, 72, 0
+0x0000, 0x0000, 0x0200, 0x0018, 0x0223, 0x0000, 0x0000, 0x0000, 0xffff, 
+0x0080, 0x0006, 0x0000, 0x0918, 0x0000, 0x031a, 0x0000, 0x0200, 0x0024, 
+0x0075, 0x0000, 0x0014, 0x8000, 0x00a5, 0x0000, 0x0200, 0x0002, 0x694d, 
+0x7263, 0x736f, 0x666f, 0x2074, 0x6153, 0x736e, 0x5320, 0x7265, 0x6669, 
+
+    ID_SHOWPRINTCOUNTER, 0x376, 72, 0
+0x0000, 0x0000, 0x0200, 0x0018, 0x0223, 0x0000, 0x0000, 0x0000, 0xff80, 
+0x00ff, 0x0006, 0x0000, 0x0422, 0x0000, 0x027b, 0x0000, 0x0200, 0x0024, 
+0x0075, 0x0000, 0x0014, 0x8000, 0x00a5, 0x0000, 0x0200, 0x0002, 0x694d, 
+0x7263, 0x736f, 0x666f, 0x2074, 0x6153, 0x736e, 0x5320, 0x7265, 0x6669, 
+
+    IDC_NAME1, 0x376, 72, 0
+0x0000, 0x0000, 0x0200, 0x0018, 0x0223, 0x0000, 0x0000, 0x0000, 0x80ff, 
+0x00ff, 0x0006, 0x0000, 0x0810, 0x0000, 0x027b, 0x0000, 0x0200, 0x0024, 
+0x0035, 0x0000, 0x0014, 0x8000, 0x00a5, 0x0000, 0x0200, 0x0000, 0x694d, 
+0x7263, 0x736f, 0x666f, 0x2074, 0x6153, 0x736e, 0x5320, 0x7265, 0x6669, 
+
+    IDC_NAME2, 0x376, 72, 0
+0x0000, 0x0000, 0x0200, 0x0018, 0x0223, 0x0000, 0x0000, 0x0000, 0x80ff, 
+0x00ff, 0x0006, 0x0000, 0x0918, 0x0000, 0x027b, 0x0000, 0x0200, 0x0024, 
+0x0035, 0x0000, 0x0014, 0x8000, 0x00a5, 0x0000, 0x0200, 0x0000, 0x694d, 
+0x7263, 0x736f, 0x666f, 0x2074, 0x6153, 0x736e, 0x5320, 0x7265, 0x6669, 
+
+    IDC_TOTAL20, 0x376, 72, 0
+0x0000, 0x0000, 0x0200, 0x0018, 0x0223, 0x0000, 0x0000, 0x0000, 0xffff, 
+0x0080, 0x0006, 0x0000, 0x0918, 0x0000, 0x031a, 0x0000, 0x0200, 0x0024, 
+0x0075, 0x0000, 0x0014, 0x8000, 0x00a5, 0x0000, 0x0200, 0x0002, 0x694d, 
+0x7263, 0x736f, 0x666f, 0x2074, 0x6153, 0x736e, 0x5320, 0x7265, 0x6669, 
+
+    IDC_LABEL7, 0x376, 72, 0
+0x0000, 0x0000, 0x0200, 0x0018, 0x0223, 0x0000, 0x0000, 0x0000, 0xff80, 
+0x00ff, 0x0003, 0x0000, 0x30fd, 0x0000, 0x027b, 0x0000, 0x0200, 0x0024, 
+0x0035, 0x0000, 0x0014, 0x8000, 0x00a5, 0x0000, 0x0200, 0x0000, 0x694d, 
+0x7263, 0x736f, 0x666f, 0x2074, 0x6153, 0x736e, 0x5320, 0x7265, 0x6669, 
+
+    IDC_LABEL8, 0x376, 72, 0
+0x0000, 0x0000, 0x0200, 0x0018, 0x0223, 0x0000, 0x0000, 0x0000, 0xff80, 
+0x00ff, 0x0003, 0x0000, 0x30fd, 0x0000, 0x027b, 0x0000, 0x0200, 0x0024, 
+0x0035, 0x0000, 0x0014, 0x8000, 0x00a5, 0x0000, 0x0200, 0x0000, 0x694d, 
+0x7263, 0x736f, 0x666f, 0x2074, 0x6153, 0x736e, 0x5320, 0x7265, 0x6669, 
+
+    IDC_LABEL9, 0x376, 72, 0
+0x0000, 0x0000, 0x0200, 0x0018, 0x0223, 0x0000, 0x0000, 0x0000, 0xff80, 
+0x00ff, 0x0003, 0x0000, 0x30fd, 0x0000, 0x0246, 0x0000, 0x0200, 0x0024, 
+0x0035, 0x0000, 0x0014, 0x8000, 0x00a5, 0x0000, 0x0200, 0x0000, 0x694d, 
+0x7263, 0x736f, 0x666f, 0x2074, 0x6153, 0x736e, 0x5320, 0x7265, 0x6669, 
+
+    IDC_LABEL10, 0x376, 72, 0
+0x0000, 0x0000, 0x0200, 0x0018, 0x0223, 0x0000, 0x0000, 0x0000, 0xff80, 
+0x00ff, 0x0003, 0x0000, 0x30fd, 0x0000, 0x027b, 0x0000, 0x0200, 0x0024, 
+0x0035, 0x0000, 0x0014, 0x8000, 0x00a5, 0x0000, 0x0200, 0x0000, 0x694d, 
+0x7263, 0x736f, 0x666f, 0x2074, 0x6153, 0x736e, 0x5320, 0x7265, 0x6669, 
+
+    0
+END
+
+IDD_DESPATCH DLGINIT
+BEGIN
+    IDC_TOTAL13, 0x376, 72, 0
+0x0000, 0x0000, 0x0200, 0x0018, 0x0223, 0x0000, 0x0000, 0x0000, 0xff80, 
+0x00ff, 0x0006, 0x0000, 0x0918, 0x0000, 0x031a, 0x0000, 0x0200, 0x0024, 
+0x0075, 0x0000, 0x0014, 0x8000, 0x00a5, 0x0000, 0x0200, 0x0002, 0x694d, 
+0x7263, 0x736f, 0x666f, 0x2074, 0x6153, 0x736e, 0x5320, 0x7265, 0x6669, 
+
+    IDC_TOTAL21, 0x376, 72, 0
+0x0000, 0x0000, 0x0200, 0x0018, 0x0223, 0x0000, 0x0000, 0x0000, 0xffff, 
+0x0080, 0x0006, 0x0000, 0x0918, 0x0000, 0x031a, 0x0000, 0x0200, 0x0024, 
+0x0075, 0x0000, 0x0014, 0x8000, 0x00a5, 0x0000, 0x0200, 0x0002, 0x694d, 
+0x7263, 0x736f, 0x666f, 0x2074, 0x6153, 0x736e, 0x5320, 0x7265, 0x6669, 
+
+    IDC_USER, 0x376, 72, 0
+0x0000, 0x0000, 0x0200, 0x0018, 0x0223, 0x0000, 0x0000, 0x0000, 0xff80, 
+0x00ff, 0x0006, 0x0000, 0x0918, 0x0000, 0x031a, 0x0000, 0x0200, 0x0024, 
+0x0035, 0x0000, 0x0014, 0x8000, 0x00a5, 0x0000, 0x0200, 0x0000, 0x694d, 
+0x7263, 0x736f, 0x666f, 0x2074, 0x6153, 0x736e, 0x5320, 0x7265, 0x6669, 
+
+    ID_SHOWPRINTCOUNTER, 0x376, 72, 0
+0x0000, 0x0000, 0x0200, 0x0018, 0x0223, 0x0000, 0x0000, 0x0000, 0xff80, 
+0x00ff, 0x0006, 0x0000, 0x0422, 0x0000, 0x027b, 0x0000, 0x0200, 0x0024, 
+0x0075, 0x0000, 0x0014, 0x8000, 0x00a5, 0x0000, 0x0200, 0x0002, 0x694d, 
+0x7263, 0x736f, 0x666f, 0x2074, 0x6153, 0x736e, 0x5320, 0x7265, 0x6669, 
+
+    IDC_NAME1, 0x376, 72, 0
+0x0000, 0x0000, 0x0200, 0x0018, 0x0223, 0x0000, 0x0000, 0x0000, 0x80ff, 
+0x00ff, 0x0006, 0x0000, 0x0810, 0x0000, 0x027b, 0x0000, 0x0200, 0x0024, 
+0x0035, 0x0000, 0x0014, 0x8000, 0x00a5, 0x0000, 0x0200, 0x0000, 0x694d, 
+0x7263, 0x736f, 0x666f, 0x2074, 0x6153, 0x736e, 0x5320, 0x7265, 0x6669, 
+
+    IDC_NAME2, 0x376, 72, 0
+0x0000, 0x0000, 0x0200, 0x0018, 0x0223, 0x0000, 0x0000, 0x0000, 0x80ff, 
+0x00ff, 0x0006, 0x0000, 0x0918, 0x0000, 0x027b, 0x0000, 0x0200, 0x0024, 
+0x0035, 0x0000, 0x0014, 0x8000, 0x00a5, 0x0000, 0x0200, 0x0000, 0x694d, 
+0x7263, 0x736f, 0x666f, 0x2074, 0x6153, 0x736e, 0x5320, 0x7265, 0x6669, 
+
+    IDC_TOTAL20, 0x376, 72, 0
+0x0000, 0x0000, 0x0200, 0x0018, 0x0223, 0x0000, 0x0000, 0x0000, 0xffff, 
+0x0080, 0x0006, 0x0000, 0x0918, 0x0000, 0x031a, 0x0000, 0x0200, 0x0024, 
+0x0075, 0x0000, 0x0014, 0x8000, 0x00a5, 0x0000, 0x0200, 0x0002, 0x694d, 
+0x7263, 0x736f, 0x666f, 0x2074, 0x6153, 0x736e, 0x5320, 0x7265, 0x6669, 
+
+    IDC_MSFLEXGRID1, 0x37a, 306, 0
+0x0024, 0x0000, 0x0037, 0x0032, 0x0045, 0x0036, 0x0037, 0x0031, 0x0032, 
+0x0030, 0x002d, 0x0035, 0x0039, 0x0035, 0x0039, 0x002d, 0x0031, 0x0031, 
+0x0063, 0x0066, 0x002d, 0x0039, 0x0031, 0x0046, 0x0036, 0x002d, 0x0043, 
+0x0032, 0x0038, 0x0036, 0x0033, 0x0043, 0x0033, 0x0038, 0x0035, 0x0045, 
+0x0033, 0x0030, 0x0012, 0x0000, 0x0001, 0x0000, 0x000a, 0x0000, 0x004c, 
+0x0000, 0x0000, 0x4321, 0x1234, 0x0008, 0x0000, 0x65e8, 0x0000, 0x1adf, 
+0x0000, 0x6f42, 0x506f, 0x0000, 0x0006, 0x0080, 0x0000, 0x0002, 0x0000, 
+0x0002, 0x0000, 0x0001, 0x0000, 0x0001, 0x0000, 0x0000, 0x0000, 0x0005, 
+0x8000, 0x0008, 0x8000, 0x000f, 0x8000, 0x0012, 0x8000, 0x000d, 0x8000, 
+0x000e, 0x8000, 0x8080, 0x0080, 0xc0c0, 0x00c0, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0001, 0x0000, 0x0001, 0x0000, 0x0000, 0x0000, 0x0001, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0001, 0x0001, 0x0000, 0x0001, 0x0002, 
+0x0003, 0x0000, 0x0000, 0x0003, 0x0000, 0x0001, 0x0001, 0x0000, 0x0001, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x5203, 0x0be3, 0x8f91, 0x11ce, 0xe39d, 
+0xaa00, 0x4b00, 0x51b8, 0x0001, 0x0000, 0x0190, 0x4244, 0x0001, 0x4d0d, 
+0x2053, 0x6153, 0x736e, 0x5320, 0x7265, 0x6669, 0x5204, 0x0be3, 0x8f91, 
+0x11ce, 0xe39d, 0xaa00, 0x4b00, 0x51b8, 0x746c, 0x0000, 0x0000, 0x0000, 
+
+    IDC_LABEL7, 0x376, 72, 0
+0x0000, 0x0000, 0x0200, 0x0018, 0x0223, 0x0000, 0x0000, 0x0000, 0xff80, 
+0x00ff, 0x0003, 0x0000, 0x30fd, 0x0000, 0x027b, 0x0000, 0x0200, 0x0024, 
+0x0035, 0x0000, 0x0014, 0x8000, 0x00a5, 0x0000, 0x0200, 0x0000, 0x694d, 
+0x7263, 0x736f, 0x666f, 0x2074, 0x6153, 0x736e, 0x5320, 0x7265, 0x6669, 
+
+    IDC_LABEL8, 0x376, 72, 0
+0x0000, 0x0000, 0x0200, 0x0018, 0x0223, 0x0000, 0x0000, 0x0000, 0xff80, 
+0x00ff, 0x0003, 0x0000, 0x30fd, 0x0000, 0x027b, 0x0000, 0x0200, 0x0024, 
+0x0035, 0x0000, 0x0014, 0x8000, 0x00a5, 0x0000, 0x0200, 0x0000, 0x694d, 
+0x7263, 0x736f, 0x666f, 0x2074, 0x6153, 0x736e, 0x5320, 0x7265, 0x6669, 
+
+    IDC_LABEL9, 0x376, 72, 0
+0x0000, 0x0000, 0x0200, 0x0018, 0x0223, 0x0000, 0x0000, 0x0000, 0xff80, 
+0x00ff, 0x0003, 0x0000, 0x30fd, 0x0000, 0x027b, 0x0000, 0x0200, 0x0024, 
+0x0035, 0x0000, 0x0014, 0x8000, 0x00a5, 0x0000, 0x0200, 0x0000, 0x694d, 
+0x7263, 0x736f, 0x666f, 0x2074, 0x6153, 0x736e, 0x5320, 0x7265, 0x6669, 
+
+    IDC_LABEL10, 0x376, 72, 0
+0x0000, 0x0000, 0x0200, 0x0018, 0x0223, 0x0000, 0x0000, 0x0000, 0xff80, 
+0x00ff, 0x0003, 0x0000, 0x30fd, 0x0000, 0x027b, 0x0000, 0x0200, 0x0024, 
+0x0035, 0x0000, 0x0014, 0x8000, 0x00a5, 0x0000, 0x0200, 0x0000, 0x694d, 
+0x7263, 0x736f, 0x666f, 0x2074, 0x6153, 0x736e, 0x5320, 0x7265, 0x6669, 
+
+    0
+END
+
+IDD_SWB DLGINIT
+BEGIN
+    IDC_NW, 0x376, 68, 0
+0x0000, 0x0000, 0x0200, 0x0018, 0x0223, 0x0000, 0x0000, 0x0000, 0xff80, 
+0x00ff, 0x0006, 0x0000, 0x10be, 0x0000, 0x04a7, 0x0000, 0x0200, 0x0020, 
+0x00f7, 0x0000, 0x0005, 0x8000, 0x0001, 0x4000, 0x0168, 0x0000, 0x0200, 
+0x0002, 0x02bc, 0x0000, 0x7241, 0x6169, 0x006c, 0x0000, 
+    0
+END
+
+IDD_ADJ DLGINIT
+BEGIN
+    IDC_MSFLEXGRID1, 0x37a, 306, 0
+0x0024, 0x0000, 0x0037, 0x0032, 0x0045, 0x0036, 0x0037, 0x0031, 0x0032, 
+0x0030, 0x002d, 0x0035, 0x0039, 0x0035, 0x0039, 0x002d, 0x0031, 0x0031, 
+0x0063, 0x0066, 0x002d, 0x0039, 0x0031, 0x0046, 0x0036, 0x002d, 0x0043, 
+0x0032, 0x0038, 0x0036, 0x0033, 0x0043, 0x0033, 0x0038, 0x0035, 0x0045, 
+0x0033, 0x0030, 0x0012, 0x0000, 0x0001, 0x0000, 0x000a, 0x0000, 0x004c, 
+0x0000, 0x0000, 0x4321, 0x1234, 0x0008, 0x0000, 0x4d1a, 0x0000, 0x2197, 
+0x0000, 0x6f42, 0x506f, 0x0000, 0x0006, 0x0080, 0x0000, 0x0002, 0x0000, 
+0x0002, 0x0000, 0x0001, 0x0000, 0x0001, 0x0000, 0x0000, 0x0000, 0x0005, 
+0x8000, 0x0008, 0x8000, 0x000f, 0x8000, 0x0012, 0x8000, 0x000d, 0x8000, 
+0x000e, 0x8000, 0x8080, 0x0080, 0xc0c0, 0x00c0, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0001, 0x0000, 0x0001, 0x0000, 0x0000, 0x0000, 0x0001, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0001, 0x0001, 0x0000, 0x0001, 0x0002, 
+0x0003, 0x0000, 0x0000, 0x0001, 0x0000, 0x0001, 0x0001, 0x0000, 0x0001, 
+0x0004, 0x0000, 0x0000, 0x0000, 0x5203, 0x0be3, 0x8f91, 0x11ce, 0xe39d, 
+0xaa00, 0x4b00, 0x51b8, 0x0001, 0x0000, 0x0190, 0x4244, 0x0001, 0x4d0d, 
+0x2053, 0x6153, 0x736e, 0x5320, 0x7265, 0x6669, 0x5204, 0x0be3, 0x8f91, 
+0x11ce, 0xe39d, 0xaa00, 0x4b00, 0x51b8, 0x746c, 0x0000, 0x0000, 0x0000, 
+
+    IDC_TOTAL6, 0x376, 60, 0
+0x0000, 0x0000, 0x0200, 0x001c, 0x01a3, 0x0000, 0x0000, 0x0000, 0xffff, 
+0x0080, 0x0000, 0x0000, 0x0001, 0x0000, 0x0bfd, 0x0000, 0x027b, 0x0000, 
+0x0200, 0x0014, 0x00f6, 0x0000, 0x0001, 0x4000, 0x00c3, 0x0000, 0x0200, 
+0x0002, 0x02bc, 0x0000, 
+    IDC_STATIC12, 0x376, 64, 0
+0x0000, 0x0000, 0x0200, 0x0028, 0x002b, 0x0000, 0x0000, 0x0000, 0xd0d4, 
+0x00c8, 0x000e, 0x8000, 0x6f54, 0x6174, 0x206c, 0x6d41, 0x756f, 0x746e, 
+0x3a20, 0x0000, 0x07a6, 0x0000, 0x01a7, 0x0000, 0x0200, 0x000c, 0x0034, 
+0x0000, 0x00a5, 0x0000, 0x0200, 0x0000, 
+    IDC_STATIC10, 0x376, 60, 0
+0x0000, 0x0000, 0x0200, 0x0024, 0x002b, 0x0000, 0x0000, 0x0000, 0xd0d4, 
+0x00c8, 0x000b, 0x8000, 0x6f54, 0x6174, 0x206c, 0x7451, 0x2079, 0x003a, 
+0x05e4, 0x0000, 0x01a7, 0x0000, 0x0200, 0x000c, 0x0034, 0x0000, 0x00a5, 
+0x0000, 0x0200, 0x0000, 
+    IDC_TOTAL4, 0x376, 56, 0
+0x0000, 0x0000, 0x0200, 0x0018, 0x0123, 0x0000, 0x0000, 0x0000, 0x80ff, 
+0x00c0, 0x0001, 0x0000, 0x0894, 0x0000, 0x027b, 0x0000, 0x0200, 0x0014, 
+0x00f6, 0x0000, 0x0001, 0x4000, 0x00c3, 0x0000, 0x0200, 0x0002, 0x02bc, 
+0x0000, 
+    0
+END
+
+IDD_DEBTOR DLGINIT
+BEGIN
+    IDC_MSFLEXGRID1, 0x37a, 306, 0
+0x0024, 0x0000, 0x0037, 0x0032, 0x0045, 0x0036, 0x0037, 0x0031, 0x0032, 
+0x0030, 0x002d, 0x0035, 0x0039, 0x0035, 0x0039, 0x002d, 0x0031, 0x0031, 
+0x0063, 0x0066, 0x002d, 0x0039, 0x0031, 0x0046, 0x0036, 0x002d, 0x0043, 
+0x0032, 0x0038, 0x0036, 0x0033, 0x0043, 0x0033, 0x0038, 0x0035, 0x0045, 
+0x0033, 0x0030, 0x0012, 0x0000, 0x0001, 0x0000, 0x000a, 0x0000, 0x004c, 
+0x0000, 0x0000, 0x4321, 0x1234, 0x0008, 0x0000, 0x2f70, 0x0000, 0x200a, 
+0x0000, 0x6f42, 0x506f, 0x0000, 0x0006, 0x0080, 0x0000, 0x0002, 0x0000, 
+0x0002, 0x0000, 0x0001, 0x0000, 0x0001, 0x0000, 0x0000, 0x0000, 0x0005, 
+0x8000, 0x0008, 0x8000, 0x000f, 0x8000, 0x0012, 0x8000, 0x000d, 0x8000, 
+0x000e, 0x8000, 0x8080, 0x0080, 0xc0c0, 0x00c0, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0001, 0x0000, 0x0001, 0x0000, 0x0000, 0x0000, 0x0001, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0001, 0x0001, 0x0000, 0x0001, 0x0002, 
+0x0003, 0x0000, 0x0000, 0x0000, 0x0000, 0x0001, 0x0001, 0x0000, 0x0001, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x5203, 0x0be3, 0x8f91, 0x11ce, 0xe39d, 
+0xaa00, 0x4b00, 0x51b8, 0x0001, 0x0000, 0x0190, 0x4244, 0x0001, 0x4d0d, 
+0x2053, 0x6153, 0x736e, 0x5320, 0x7265, 0x6669, 0x5204, 0x0be3, 0x8f91, 
+0x11ce, 0xe39d, 0xaa00, 0x4b00, 0x51b8, 0x746c, 0x0000, 0x0000, 0x0000, 
+
+    IDC_DCR_LABEL, 0x376, 44, 0
+0x0000, 0x0000, 0x0200, 0x0014, 0x0023, 0x0000, 0x0000, 0x0000, 0xd0d4, 
+0x00c8, 0x00ee, 0x0000, 0x018d, 0x0000, 0x0200, 0x000c, 0x0034, 0x0000, 
+0x00a5, 0x0000, 0x2200, 0x0000, 
+    0
+END
+
+IDD_INV DLGINIT
+BEGIN
+    IDC_MSFLEXGRID1, 0x37a, 306, 0
+0x0024, 0x0000, 0x0037, 0x0032, 0x0045, 0x0036, 0x0037, 0x0031, 0x0032, 
+0x0030, 0x002d, 0x0035, 0x0039, 0x0035, 0x0039, 0x002d, 0x0031, 0x0031, 
+0x0063, 0x0066, 0x002d, 0x0039, 0x0031, 0x0046, 0x0036, 0x002d, 0x0043, 
+0x0032, 0x0038, 0x0036, 0x0033, 0x0043, 0x0033, 0x0038, 0x0035, 0x0045, 
+0x0033, 0x0030, 0x0012, 0x0000, 0x0001, 0x0000, 0x000a, 0x0000, 0x004c, 
+0x0000, 0x0000, 0x4321, 0x1234, 0x0008, 0x0000, 0x594c, 0x0000, 0x1c6c, 
+0x0000, 0x6f42, 0x506f, 0x0000, 0x0006, 0x0080, 0x0000, 0x0002, 0x0000, 
+0x0002, 0x0000, 0x0001, 0x0000, 0x0001, 0x0000, 0x0000, 0x0000, 0x0005, 
+0x8000, 0x0008, 0x8000, 0x000f, 0x8000, 0x0012, 0x8000, 0x000d, 0x8000, 
+0x000e, 0x8000, 0x8080, 0x0080, 0xc0c0, 0x00c0, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0001, 0x0000, 0x0001, 0x0000, 0x0000, 0x0000, 0x0001, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0001, 0x0001, 0x0000, 0x0001, 0x0002, 
+0x0003, 0x0000, 0x0000, 0x0003, 0x0000, 0x0001, 0x0001, 0x0000, 0x0001, 
+0x0004, 0x0000, 0x0000, 0x0000, 0x5203, 0x0be3, 0x8f91, 0x11ce, 0xe39d, 
+0xaa00, 0x4b00, 0x51b8, 0x0001, 0x0000, 0x0190, 0x7cdc, 0x0001, 0x4d0d, 
+0x2053, 0x6153, 0x736e, 0x5320, 0x7265, 0x6669, 0x5204, 0x0be3, 0x8f91, 
+0x11ce, 0xe39d, 0xaa00, 0x4b00, 0x51b8, 0x746c, 0x0000, 0x0000, 0x0000, 
+
+    IDC_TOTAL15, 0x376, 56, 0
+0x0000, 0x0000, 0x0200, 0x0018, 0x0223, 0x0000, 0x0000, 0x0000, 0xff80, 
+0x00ff, 0x0003, 0x0000, 0x09d2, 0x0000, 0x031a, 0x0000, 0x0200, 0x0014, 
+0x00f6, 0x0000, 0x0001, 0x4000, 0x00c3, 0x0000, 0x0200, 0x0002, 0x02bc, 
+0x0000, 
+    IDC_TOTAL9, 0x376, 56, 0
+0x0000, 0x0000, 0x0200, 0x0018, 0x0223, 0x0000, 0x0000, 0x0000, 0xff80, 
+0x00ff, 0x0003, 0x0000, 0x0a06, 0x0000, 0x031a, 0x0000, 0x0200, 0x0014, 
+0x00f6, 0x0000, 0x0001, 0x4000, 0x00c3, 0x0000, 0x0200, 0x0002, 0x02bc, 
+0x0000, 
+    IDC_TOTAL16, 0x376, 56, 0
+0x0000, 0x0000, 0x0200, 0x0018, 0x0223, 0x0000, 0x0000, 0x0000, 0xff80, 
+0x00ff, 0x0003, 0x0000, 0x0cd1, 0x0000, 0x031a, 0x0000, 0x0200, 0x0014, 
+0x00f6, 0x0000, 0x0001, 0x4000, 0x00c3, 0x0000, 0x0200, 0x0002, 0x02bc, 
+0x0000, 
+    0
+END
+
+IDD_WB2 DLGINIT
+BEGIN
+    IDC_TOTAL9, 0x376, 72, 0
+0x0000, 0x0000, 0x0200, 0x0018, 0x0223, 0x0000, 0x0000, 0x0000, 0xff80, 
+0x00ff, 0x0006, 0x0000, 0x0918, 0x0000, 0x031a, 0x0000, 0x0200, 0x0024, 
+0x0075, 0x0000, 0x0014, 0x8000, 0x00a5, 0x0000, 0x0200, 0x0002, 0x694d, 
+0x7263, 0x736f, 0x666f, 0x2074, 0x6153, 0x736e, 0x5320, 0x7265, 0x6669, 
+
+    IDC_TOTAL11, 0x376, 72, 0
+0x0000, 0x0000, 0x0200, 0x0018, 0x0223, 0x0000, 0x0000, 0x0000, 0xffff, 
+0x0080, 0x0006, 0x0000, 0x0918, 0x0000, 0x031a, 0x0000, 0x0200, 0x0024, 
+0x0075, 0x0000, 0x0014, 0x8000, 0x00a5, 0x0000, 0x0200, 0x0002, 0x694d, 
+0x7263, 0x736f, 0x666f, 0x2074, 0x6153, 0x736e, 0x5320, 0x7265, 0x6669, 
+
+    IDC_USER, 0x376, 72, 0
+0x0000, 0x0000, 0x0200, 0x0018, 0x0223, 0x0000, 0x0000, 0x0000, 0xff80, 
+0x00ff, 0x0006, 0x0000, 0x0918, 0x0000, 0x031a, 0x0000, 0x0200, 0x0024, 
+0x0035, 0x0000, 0x0014, 0x8000, 0x00a5, 0x0000, 0x0200, 0x0000, 0x694d, 
+0x7263, 0x736f, 0x666f, 0x2074, 0x6153, 0x736e, 0x5320, 0x7265, 0x6669, 
+
+    ID_SHOWPRINTCOUNTER, 0x376, 72, 0
+0x0000, 0x0000, 0x0200, 0x0018, 0x0223, 0x0000, 0x0000, 0x0000, 0xff80, 
+0x00ff, 0x0006, 0x0000, 0x0422, 0x0000, 0x027b, 0x0000, 0x0200, 0x0024, 
+0x0075, 0x0000, 0x0014, 0x8000, 0x00a5, 0x0000, 0x0200, 0x0002, 0x694d, 
+0x7263, 0x736f, 0x666f, 0x2074, 0x6153, 0x736e, 0x5320, 0x7265, 0x6669, 
+
+    IDC_MSFLEXGRID1, 0x37a, 306, 0
+0x0024, 0x0000, 0x0037, 0x0032, 0x0045, 0x0036, 0x0037, 0x0031, 0x0032, 
+0x0030, 0x002d, 0x0035, 0x0039, 0x0035, 0x0039, 0x002d, 0x0031, 0x0031, 
+0x0063, 0x0066, 0x002d, 0x0039, 0x0031, 0x0046, 0x0036, 0x002d, 0x0043, 
+0x0032, 0x0038, 0x0036, 0x0033, 0x0043, 0x0033, 0x0038, 0x0035, 0x0045, 
+0x0033, 0x0030, 0x0012, 0x0000, 0x0001, 0x0000, 0x000a, 0x0000, 0x004c, 
+0x0000, 0x0000, 0x4321, 0x1234, 0x0008, 0x0000, 0x63d7, 0x0000, 0x1128, 
+0x0000, 0x6f42, 0x506f, 0x0000, 0x0006, 0x0080, 0x0000, 0x0002, 0x0000, 
+0x0002, 0x0000, 0x0001, 0x0000, 0x0001, 0x0000, 0x0000, 0x0000, 0x0005, 
+0x8000, 0x0008, 0x8000, 0x000f, 0x8000, 0x0012, 0x8000, 0x000d, 0x8000, 
+0x000e, 0x8000, 0x8080, 0x0080, 0xc0c0, 0x00c0, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0001, 0x0000, 0x0001, 0x0000, 0x0000, 0x0000, 0x0001, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0001, 0x0001, 0x0000, 0x0001, 0x0002, 
+0x0003, 0x0000, 0x0000, 0x0003, 0x0000, 0x0001, 0x0001, 0x0000, 0x0001, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x5203, 0x0be3, 0x8f91, 0x11ce, 0xe39d, 
+0xaa00, 0x4b00, 0x51b8, 0x0001, 0x0000, 0x0190, 0x4244, 0x0001, 0x4d0d, 
+0x2053, 0x6153, 0x736e, 0x5320, 0x7265, 0x6669, 0x5204, 0x0be3, 0x8f91, 
+0x11ce, 0xe39d, 0xaa00, 0x4b00, 0x51b8, 0x746c, 0x0000, 0x0000, 0x0000, 
+
+    0
+END
+
+IDD_TRCV DLGINIT
+BEGIN
+    IDC_STATIC1, 0x376, 96, 0
+0x0000, 0x0000, 0x0200, 0x002c, 0x022b, 0x0000, 0x0000, 0x0000, 0xff80, 
+0x00ff, 0x000f, 0x8000, 0x0006, 0x0000, 0x744f, 0x6568, 0x2072, 0x6954, 
+0x6b63, 0x7465, 0x4e20, 0x006f, 0x0dd9, 0x0000, 0x027b, 0x0000, 0x0200, 
+0x0028, 0x00b7, 0x0000, 0x0014, 0x8000, 0x0001, 0x4000, 0x00f0, 0x0000, 
+0x0200, 0x02bc, 0x694d, 0x7263, 0x736f, 0x666f, 0x2074, 0x6153, 0x736e, 
+0x5320, 0x7265, 0x6669, 
+    IDC_MSFLEXGRID1, 0x37a, 306, 0
+0x0024, 0x0000, 0x0037, 0x0032, 0x0045, 0x0036, 0x0037, 0x0031, 0x0032, 
+0x0030, 0x002d, 0x0035, 0x0039, 0x0035, 0x0039, 0x002d, 0x0031, 0x0031, 
+0x0063, 0x0066, 0x002d, 0x0039, 0x0031, 0x0046, 0x0036, 0x002d, 0x0043, 
+0x0032, 0x0038, 0x0036, 0x0033, 0x0043, 0x0033, 0x0038, 0x0035, 0x0045, 
+0x0033, 0x0030, 0x0012, 0x0000, 0x0001, 0x0000, 0x000a, 0x0000, 0x004c, 
+0x0000, 0x0000, 0x4321, 0x1234, 0x0008, 0x0000, 0x4f46, 0x0000, 0x106f, 
+0x0000, 0x6f42, 0x506f, 0x0000, 0x0006, 0x0080, 0x0000, 0x0002, 0x0000, 
+0x0002, 0x0000, 0x0001, 0x0000, 0x0001, 0x0000, 0x0000, 0x0000, 0x0005, 
+0x8000, 0x0008, 0x8000, 0x000f, 0x8000, 0x0012, 0x8000, 0x000d, 0x8000, 
+0x000e, 0x8000, 0x8080, 0x0080, 0xc0c0, 0x00c0, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0001, 0x0000, 0x0001, 0x0000, 0x0000, 0x0000, 0x0001, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0001, 0x0001, 0x0000, 0x0001, 0x0002, 
+0x0003, 0x0000, 0x0000, 0x0003, 0x0000, 0x0001, 0x0001, 0x0000, 0x0001, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x5203, 0x0be3, 0x8f91, 0x11ce, 0xe39d, 
+0xaa00, 0x4b00, 0x51b8, 0x0001, 0x0000, 0x0190, 0x4244, 0x0001, 0x4d0d, 
+0x2053, 0x6153, 0x736e, 0x5320, 0x7265, 0x6669, 0x5204, 0x0be3, 0x8f91, 
+0x11ce, 0xe39d, 0xaa00, 0x4b00, 0x51b8, 0x746c, 0x0000, 0x0000, 0x0000, 
+
+    IDC_TOTAL9, 0x376, 72, 0
+0x0000, 0x0000, 0x0200, 0x0018, 0x0223, 0x0000, 0x0000, 0x0000, 0xff80, 
+0x00ff, 0x0006, 0x0000, 0x06d2, 0x0000, 0x027b, 0x0000, 0x0200, 0x0024, 
+0x0075, 0x0000, 0x0014, 0x8000, 0x00a5, 0x0000, 0x0200, 0x0002, 0x694d, 
+0x7263, 0x736f, 0x666f, 0x2074, 0x6153, 0x736e, 0x5320, 0x7265, 0x6669, 
+
+    IDC_TOTAL11, 0x376, 72, 0
+0x0000, 0x0000, 0x0200, 0x0018, 0x0223, 0x0000, 0x0000, 0x0000, 0xffff, 
+0x0080, 0x0006, 0x0000, 0x06d2, 0x0000, 0x027b, 0x0000, 0x0200, 0x0024, 
+0x0075, 0x0000, 0x0014, 0x8000, 0x00a5, 0x0000, 0x0200, 0x0002, 0x694d, 
+0x7263, 0x736f, 0x666f, 0x2074, 0x6153, 0x736e, 0x5320, 0x7265, 0x6669, 
+
+    0
+END
+
+IDD_FGFTP DLGINIT
+BEGIN
+    IDC_TEXTBOX1, 0x37a, 111, 0
+0x0000, 0x0000, 0x0023, 0x0000, 0x0001, 0x0000, 0x001b, 0x0000, 0x0001, 
+0x8001, 0x0000, 0x0000, 0x0000, 0x001a, 0x0000, 0x0002, 0x8001, 0x0001, 
+0x0000, 0x0000, 0x2802, 0x0700, 0x4001, 0x0080, 0x0000, 0x1b00, 0x8048, 
+0xc02c, 0xc0c0, 0x0000, 0x4080, 0x0800, 0x0000, 0x9080, 0x001a, 0x6800, 
+0x0006, 0x3000, 0x3030, 0x3030, 0x4b30, 0x0047, 0x1802, 0x3500, 0x0000, 
+0x0500, 0x0000, 0xd080, 0x0002, 0x0000, 0x0002, 0x4100, 0x6972, 0x6c61, 
+0x1301, "\000" 
+    0
+END
+
+IDD_MENU_FORM DLGINIT
+BEGIN
+    IDC_LABEL1, 0x376, 76, 0
+0x0000, 0x0000, 0x0200, 0x0028, 0x002b, 0x0000, 0x0000, 0x0000, 0xff80, 
+0x0080, 0x0010, 0x8000, 0x6557, 0x6769, 0x6968, 0x676e, 0x5020, 0x6f72, 
+0x6563, 0x7373, 0x13d8, 0x0000, 0x02b0, 0x0000, 0x0200, 0x0018, 0x0035, 
+0x0000, 0x0008, 0x8000, 0x00c3, 0x0000, 0x0200, 0x0000, 0x534d, 0x5320, 
+0x7265, 0x6669, 
+    0
+END
+
+IDD_PT DLGINIT
+BEGIN
+    IDC_LABEL5, 0x376, 76, 0
+0x0000, 0x0000, 0x0200, 0x0018, 0x0223, 0x0000, 0x0000, 0x0000, 0xff80, 
+0x00ff, 0x0006, 0x0000, 0x281a, 0x0000, 0x034f, 0x0000, 0x0200, 0x0028, 
+0x00b7, 0x0000, 0x0014, 0x8000, 0x0001, 0x4000, 0x00f0, 0x0000, 0x0200, 
+0x02bc, 0x694d, 0x7263, 0x736f, 0x666f, 0x2074, 0x6153, 0x736e, 0x5320, 
+0x7265, 0x6669, 
+    IDC_LABEL6, 0x376, 76, 0
+0x0000, 0x0000, 0x0200, 0x0018, 0x0223, 0x0000, 0x0000, 0x0000, 0xff80, 
+0x00ff, 0x0006, 0x0000, 0x281a, 0x0000, 0x034f, 0x0000, 0x0200, 0x0028, 
+0x00b7, 0x0000, 0x0014, 0x8000, 0x0001, 0x4000, 0x00f0, 0x0000, 0x0200, 
+0x02bc, 0x694d, 0x7263, 0x736f, 0x666f, 0x2074, 0x6153, 0x736e, 0x5320, 
+0x7265, 0x6669, 
+    IDC_LABEL7, 0x376, 76, 0
+0x0000, 0x0000, 0x0200, 0x0018, 0x0223, 0x0000, 0x0000, 0x0000, 0xff80, 
+0x00ff, 0x0006, 0x0000, 0x281a, 0x0000, 0x034f, 0x0000, 0x0200, 0x0028, 
+0x00b7, 0x0000, 0x0014, 0x8000, 0x0001, 0x4000, 0x00f0, 0x0000, 0x0200, 
+0x02bc, 0x694d, 0x7263, 0x736f, 0x666f, 0x2074, 0x6153, 0x736e, 0x5320, 
+0x7265, 0x6669, 
+    IDC_LABEL8, 0x376, 76, 0
+0x0000, 0x0000, 0x0200, 0x0018, 0x0223, 0x0000, 0x0000, 0x0000, 0xff80, 
+0x00ff, 0x0006, 0x0000, 0x281a, 0x0000, 0x034f, 0x0000, 0x0200, 0x0028, 
+0x00b7, 0x0000, 0x0014, 0x8000, 0x0001, 0x4000, 0x00f0, 0x0000, 0x0200, 
+0x02bc, 0x694d, 0x7263, 0x736f, 0x666f, 0x2074, 0x6153, 0x736e, 0x5320, 
+0x7265, 0x6669, 
+    IDC_LABEL12, 0x376, 72, 0
+0x0000, 0x0000, 0x0200, 0x0018, 0x0223, 0x0000, 0x0000, 0x0000, 0xff80, 
+0x00ff, 0x0006, 0x0000, 0x281a, 0x0000, 0x034f, 0x0000, 0x0200, 0x0024, 
+0x0035, 0x0000, 0x0014, 0x8000, 0x00a5, 0x0000, 0x0200, 0x0000, 0x694d, 
+0x7263, 0x736f, 0x666f, 0x2074, 0x6153, 0x736e, 0x5320, 0x7265, 0x6669, 
+
+    IDC_LABEL3, 0x376, 76, 0
+0x0000, 0x0000, 0x0200, 0x0018, 0x0223, 0x0000, 0x0000, 0x0000, 0xff80, 
+0x00ff, 0x0006, 0x0000, 0x281a, 0x0000, 0x034f, 0x0000, 0x0200, 0x0028, 
+0x00b7, 0x0000, 0x0014, 0x8000, 0x0001, 0x4000, 0x00f0, 0x0000, 0x0200, 
+0x02bc, 0x694d, 0x7263, 0x736f, 0x666f, 0x2074, 0x6153, 0x736e, 0x5320, 
+0x7265, 0x6669, 
+    IDC_LABEL4, 0x376, 76, 0
+0x0000, 0x0000, 0x0200, 0x0018, 0x0223, 0x0000, 0x0000, 0x0000, 0xff80, 
+0x00ff, 0x0006, 0x0000, 0x281a, 0x0000, 0x034f, 0x0000, 0x0200, 0x0028, 
+0x00b7, 0x0000, 0x0014, 0x8000, 0x0001, 0x4000, 0x00f0, 0x0000, 0x0200, 
+0x02bc, 0x694d, 0x7263, 0x736f, 0x666f, 0x2074, 0x6153, 0x736e, 0x5320, 
+0x7265, 0x6669, 
+    IDC_LABEL13, 0x376, 72, 0
+0x0000, 0x0000, 0x0200, 0x0018, 0x0223, 0x0000, 0x0000, 0x0000, 0xff80, 
+0x00ff, 0x0006, 0x0000, 0x281a, 0x0000, 0x034f, 0x0000, 0x0200, 0x0024, 
+0x0035, 0x0000, 0x0014, 0x8000, 0x00a5, 0x0000, 0x0200, 0x0000, 0x694d, 
+0x7263, 0x736f, 0x666f, 0x2074, 0x6153, 0x736e, 0x5320, 0x7265, 0x6669, 
+
+    0
+END
+
+IDD_DDATA DLGINIT
+BEGIN
+    IDC_LABEL7, 0x376, 52, 0
+0x0000, 0x0000, 0x0200, 0x001c, 0x0227, 0x0000, 0x0000, 0x0000, 0xff80, 
+0x0080, 0x001b, 0x0000, 0x0003, 0x0000, 0x18ce, 0x0000, 0x0211, 0x0000, 
+0x0200, 0x000c, 0x0034, 0x0000, 0x00a5, 0x0000, 0x2200, 0x0000, 
+    IDC_NETWT, 0x376, 52, 0
+0x0000, 0x0000, 0x0200, 0x001c, 0x0227, 0x0000, 0x0000, 0x0000, 0xff80, 
+0x0080, 0x001b, 0x0000, 0x0003, 0x0000, 0x06d2, 0x0000, 0x0211, 0x0000, 
+0x0200, 0x000c, 0x0074, 0x0000, 0x00a5, 0x0000, 0x2200, 0x0002, 
+    0
+END
+
+IDD_INVITEM DLGINIT
+BEGIN
+    IDC_LABEL7, 0x376, 56, 0
+0x0000, 0x0000, 0x0200, 0x001c, 0x0227, 0x0000, 0x0000, 0x0000, 0xff80, 
+0x00ff, 0x001b, 0x0000, 0x0003, 0x0000, 0x2673, 0x0000, 0x027b, 0x0000, 
+0x0200, 0x0010, 0x00b6, 0x0000, 0x0001, 0x4000, 0x00c3, 0x0000, 0x0200, 
+0x02bc, 
+    0
+END
+
+IDD_SPITEM DLGINIT
+BEGIN
+    IDC_LABEL3, 0x376, 76, 0
+0x0000, 0x0000, 0x0200, 0x001c, 0x0227, 0x0000, 0x0000, 0x0000, 0xff80, 
+0x00ff, 0x001b, 0x0000, 0x0003, 0x0000, 0x2a60, 0x0000, 0x027b, 0x0000, 
+0x0200, 0x0024, 0x0035, 0x0000, 0x0014, 0x8000, 0x00a5, 0x0000, 0x0200, 
+0x0000, 0x694d, 0x7263, 0x736f, 0x666f, 0x2074, 0x6153, 0x736e, 0x5320, 
+0x7265, 0x6669, 
+    0
+END
+
+IDD_PINV DLGINIT
+BEGIN
+    IDC_MSFLEXGRID1, 0x37a, 306, 0
+0x0024, 0x0000, 0x0037, 0x0032, 0x0045, 0x0036, 0x0037, 0x0031, 0x0032, 
+0x0030, 0x002d, 0x0035, 0x0039, 0x0035, 0x0039, 0x002d, 0x0031, 0x0031, 
+0x0063, 0x0066, 0x002d, 0x0039, 0x0031, 0x0046, 0x0036, 0x002d, 0x0043, 
+0x0032, 0x0038, 0x0036, 0x0033, 0x0043, 0x0033, 0x0038, 0x0035, 0x0045, 
+0x0033, 0x0030, 0x0012, 0x0000, 0x0001, 0x0000, 0x000a, 0x0000, 0x004c, 
+0x0000, 0x0000, 0x4321, 0x1234, 0x0008, 0x0000, 0x594c, 0x0000, 0x1c6c, 
+0x0000, 0x6f42, 0x506f, 0x0000, 0x0006, 0x0080, 0x0000, 0x0002, 0x0000, 
+0x0002, 0x0000, 0x0001, 0x0000, 0x0001, 0x0000, 0x0000, 0x0000, 0x0005, 
+0x8000, 0x0008, 0x8000, 0x000f, 0x8000, 0x0012, 0x8000, 0x000d, 0x8000, 
+0x000e, 0x8000, 0x8080, 0x0080, 0xc0c0, 0x00c0, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0001, 0x0000, 0x0001, 0x0000, 0x0000, 0x0000, 0x0001, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0001, 0x0001, 0x0000, 0x0001, 0x0002, 
+0x0003, 0x0000, 0x0000, 0x0003, 0x0000, 0x0001, 0x0001, 0x0000, 0x0001, 
+0x0004, 0x0000, 0x0000, 0x0000, 0x5203, 0x0be3, 0x8f91, 0x11ce, 0xe39d, 
+0xaa00, 0x4b00, 0x51b8, 0x0001, 0x0000, 0x0190, 0x7cdc, 0x0001, 0x4d0d, 
+0x2053, 0x6153, 0x736e, 0x5320, 0x7265, 0x6669, 0x5204, 0x0be3, 0x8f91, 
+0x11ce, 0xe39d, 0xaa00, 0x4b00, 0x51b8, 0x746c, 0x0000, 0x0000, 0x0000, 
+
+    IDC_TOTAL15, 0x376, 56, 0
+0x0000, 0x0000, 0x0200, 0x0018, 0x0223, 0x0000, 0x0000, 0x0000, 0xff80, 
+0x00ff, 0x0003, 0x0000, 0x0a06, 0x0000, 0x031a, 0x0000, 0x0200, 0x0014, 
+0x00f6, 0x0000, 0x0001, 0x4000, 0x00c3, 0x0000, 0x0200, 0x0002, 0x02bc, 
+0x0000, 
+    IDC_TOTAL9, 0x376, 56, 0
+0x0000, 0x0000, 0x0200, 0x0018, 0x0223, 0x0000, 0x0000, 0x0000, 0xff80, 
+0x00ff, 0x0003, 0x0000, 0x0a06, 0x0000, 0x031a, 0x0000, 0x0200, 0x0014, 
+0x00f6, 0x0000, 0x0001, 0x4000, 0x00c3, 0x0000, 0x0200, 0x0002, 0x02bc, 
+0x0000, 
+    IDC_TOTAL16, 0x376, 56, 0
+0x0000, 0x0000, 0x0200, 0x0018, 0x0223, 0x0000, 0x0000, 0x0000, 0xff80, 
+0x00ff, 0x0003, 0x0000, 0x0cd1, 0x0000, 0x031a, 0x0000, 0x0200, 0x0014, 
+0x00f6, 0x0000, 0x0001, 0x4000, 0x00c3, 0x0000, 0x0200, 0x0002, 0x02bc, 
+0x0000, 
+    0
+END
+
+IDD_PINVITEM DLGINIT
+BEGIN
+    IDC_LABEL7, 0x376, 56, 0
+0x0000, 0x0000, 0x0200, 0x001c, 0x0227, 0x0000, 0x0000, 0x0000, 0xff80, 
+0x00ff, 0x001b, 0x0000, 0x0003, 0x0000, 0x2834, 0x0000, 0x0295, 0x0000, 
+0x0200, 0x0010, 0x00b6, 0x0000, 0x0001, 0x4000, 0x00c3, 0x0000, 0x0200, 
+0x02bc, 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_CURSOR1             CURSOR  DISCARDABLE     "res\\cursor1.cur"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "menu"
+    AFX_IDS_IDLEMESSAGE     "Ready"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_NEW             "Create a new document\nNew"
+    ID_FILE_OPEN            "Open an existing document\nOpen"
+    ID_FILE_CLOSE           "Close the active document\nClose"
+    ID_FILE_SAVE            "Save the active document\nSave"
+    ID_FILE_SAVE_AS         "Save the active document with a new name\nSave As"
+    ID_FILE_PAGE_SETUP      "Change the printing options\nPage Setup"
+    ID_FILE_PRINT_SETUP     "Change the printer and printing options\nPrint Setup"
+    ID_FILE_PRINT           "Print the active document\nPrint"
+    ID_FILE_PRINT_PREVIEW   "Display full pages\nPrint Preview"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_APP_ABOUT            "Display program information, version number and copyright\nAbout"
+    ID_APP_EXIT             "Quit the application; prompts to save documents\nExit"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_MRU_FILE1       "Open this document"
+    ID_FILE_MRU_FILE2       "Open this document"
+    ID_FILE_MRU_FILE3       "Open this document"
+    ID_FILE_MRU_FILE4       "Open this document"
+    ID_FILE_MRU_FILE5       "Open this document"
+    ID_FILE_MRU_FILE6       "Open this document"
+    ID_FILE_MRU_FILE7       "Open this document"
+    ID_FILE_MRU_FILE8       "Open this document"
+    ID_FILE_MRU_FILE9       "Open this document"
+    ID_FILE_MRU_FILE10      "Open this document"
+    ID_FILE_MRU_FILE11      "Open this document"
+    ID_FILE_MRU_FILE12      "Open this document"
+    ID_FILE_MRU_FILE13      "Open this document"
+    ID_FILE_MRU_FILE14      "Open this document"
+    ID_FILE_MRU_FILE15      "Open this document"
+    ID_FILE_MRU_FILE16      "Open this document"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_NEXT_PANE            "Switch to the next window pane\nNext Pane"
+    ID_PREV_PANE            "Switch back to the previous window pane\nPrevious Pane"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_WINDOW_SPLIT         "Split the active window into panes\nSplit"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_CLEAR           "Erase the selection\nErase"
+    ID_EDIT_CLEAR_ALL       "Erase everything\nErase All"
+    ID_EDIT_COPY            "Copy the selection and put it on the Clipboard\nCopy"
+    ID_EDIT_CUT             "Cut the selection and put it on the Clipboard\nCut"
+    ID_EDIT_FIND            "Find the specified text\nFind"
+    ID_EDIT_PASTE           "Insert Clipboard contents\nPaste"
+    ID_EDIT_REPEAT          "Repeat the last action\nRepeat"
+    ID_EDIT_REPLACE         "Replace specific text with different text\nReplace"
+    ID_EDIT_SELECT_ALL      "Select the entire document\nSelect All"
+    ID_EDIT_UNDO            "Undo the last action\nUndo"
+    ID_EDIT_REDO            "Redo the previously undone action\nRedo"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_TOOLBAR         "Show or hide the toolbar\nToggle ToolBar"
+    ID_VIEW_STATUS_BAR      "Show or hide the status bar\nToggle StatusBar"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "Change the window size"
+    AFX_IDS_SCMOVE          "Change the window position"
+    AFX_IDS_SCMINIMIZE      "Reduce the window to an icon"
+    AFX_IDS_SCMAXIMIZE      "Enlarge the window to full size"
+    AFX_IDS_SCNEXTWINDOW    "Switch to the next document window"
+    AFX_IDS_SCPREVWINDOW    "Switch to the previous document window"
+    AFX_IDS_SCCLOSE         "Close the active window and prompts to save the documents"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "Restore the window to normal size"
+    AFX_IDS_SCTASKLIST      "Activate Task List"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_PREVIEW_CLOSE   "Close print preview mode\nCancel Preview"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID00004                 "00004 ==>  Report"
+    ID00011                 "00011 ==>  Receiving"
+    ID00012                 "00012 ==>  Despatch"
+    ID00013                 "00013 ==>  Public"
+    ID00014                 "00014 ==>  Other Receiving"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID00051                 "00051 ==>  Set Password"
+    ID00052                 "00052 ==>  Company Profile"
+    ID00053                 "00053 ==>  Operator Information"
+    ID00054                 "00054 ==>  Backup Data"
+    ID00055                 "00055 ==>  System Update"
+    ID00056                 "00056 ==>  Reset Data"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_INDICATOR_DATE       "Date"
+    ID_INDICATOR_TIME       "Time"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID00021                 "00021 ==>  Adjustment Entry"
+    ID00022                 "00022 ==>  Purchase Invoice"
+    ID00023                 "00023 ==>  Sales Invoice"
+    ID00024                 "00024 ==>  Export Purchase Invoice To AP"
+    ID00025                 "00025 ==>  Export Sales Invoice To AR"
+    ID00031                 "00031 ==>  Customer"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID00032                 "00032 ==>  Supplier"
+    ID00033                 "00033 ==>  Item"
+    ID00034                 "00034 ==>  I/C No."
+    ID00035                 "00035 ==>  Driver"
+    ID00036                 "00036 ==>  Transporter"
+    ID00037                 "00037 ==>  Vehicle"
+    ID00038                 "00038 ==>  Function Code"
+    ID00039                 "00039 ==>  Reason"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_ADJUSTMENTINVOICING_00002ADJUSTMENTINVOICING 
+                            "00021 ==>  Adjustment Entry"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif
+#include "res\menu.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#include "afxprint.rc"       // printing/print preview resources
+#endif
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

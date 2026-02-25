@@ -1,0 +1,25 @@
+#!Mt
+#&E%Title%F
+#&g@COADD1
+#&@COADD2
+#&M
+#&To  : E@NAMEF                         Ticket No : E@TICKETF
+#&      E@ADD1F     Date      : @DATE
+#&      E@ADD2F     Vehicle No: @LORRY
+#&      E@ADD3F     D/O No    : @DO
+#0                                 -1VOUCHER-0
+#0                                                                     Nett       Price     Amount
+#0-1Time    Product Description       First  Second  Wastage             Wt         P/KG      (RM)  -0
+#R%s   %s %s %s   %s   %s   %s   %s  %s
+#G                                                                   =============================
+#G                                                             Total:E%f Kgs       RM:%fF
+#G  Payment By : @PAYMENT                 =============================
+#G  Remark : @REM
+#G           @REM2
+#G
+#G
+#G ______________________       _____________________________     _________________________
+#G ISSUED BY                    DRIVER'S SIGNATURE                RECEIVED SIGNATURE
+#G                              @DNAME
+#G                              @DIC
+#E

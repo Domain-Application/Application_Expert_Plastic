@@ -1,0 +1,39 @@
+{
+	"Devices":	[{
+			"ID":	0,
+			"SerialNumber":	"DS-TCG227-A 20190227AIC95496386",
+			"ChannelNumber":	1,
+			"StartChannel":	1,
+			"AlarmInNum":	1,
+			"AlarmOutNum":	1,
+			"IPChanNum":	0,
+			"MirrorChanNum":	0,
+			"StartMirrorChanNo":	0,
+			"LocalNodeName":	"lpr",
+			"DeviceType":	35,
+			"DiskNum":	0,
+			"LoginUserName":	"admin",
+			"LoginUserPwd":	"aaaa1111",
+			"DeviceIP":	"192.168.1.191",
+			"DeviceMultiIP":	"0.0.0.0",
+			"DevicePort":	8000,
+			"DeviceName":	"ITCCAM",
+			"LoginMode":	0,
+			"Https":	0,
+			"Channels":	[{
+					"ChanID":	0,
+					"DeviceIndex":	0,
+					"ChanIndex":	0,
+					"ChanName":	"Camera1",
+					"Protocol":	0,
+					"PicResolution":	0,
+					"PicQuality":	0,
+					"Enable":	1,
+					"PreviewMode":	0,
+					"PreviewProtocolType":	0,
+					"VideoCodingType":	0,
+					"StreamType":	0,
+					"LinkMode":	0
+				}]
+		}]
+}

@@ -1,0 +1,9 @@
+MGRID g(&m_grid,sub,0,8);
+g.SetTitle("No",480,1);
+g.SetTitle("Ticket No",1185,1);
+g.SetTitle("Date",1380,1);
+g.SetTitle("Vehicle No",1590,1);
+g.SetTitle("D/O No",1590,1);
+g.SetTitle("Driver",1995,1);
+g.SetTitle("Qty(Kg)",1260,7);
+g.SetTitle("Amount",1380,7);

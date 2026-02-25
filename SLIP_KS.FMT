@@ -1,0 +1,28 @@
+#!
+#&ME%Title%F
+#&@COADD1    R/N No    : E@TICKETF
+#&@COADD2    Vehicle No: @LORRY
+#&@COADD3    D/O No    : @DO
+#&GST NO : @GSTNO                                             Date      : @DATE
+#&
+#&From: @NAME (GST NO : @GSTNO2)
+#&      @ADD1
+#&      @ADD2
+#&      @ADD3
+#0                               -1STORE RECEIPT-0
+#0M
+#0-1Time    Product Description     Net Wt(P/T)   P/M.TON   Taxcode   Inc    %    GST Amt     Amount-0
+#R%s   %s  %s   %s  %s  %s  %s  %s   %s
+#G                             ===================================================================
+#G                             Total:E%f Kgs                        TOTAL AMOUNT:RM   %fF
+#G                             ===================================================================
+#GRemark :                                                                TOTAL GST:RM  @GSTAMT
+#G@REMARKS              TOTAL TAXABLE AMT:RM  @TAXAMT
+#G@REM2          TOTAL NON TAXABLE AMT:RM  @NONTAX
+#G                                                            ====================================
+#&
+#0M
+#0________________________     ____________________       _____________________
+#0DRIVER'S SIGNATURE           ISSUED BY                  RECEIVED BY
+##@DNAMEP
+#E
