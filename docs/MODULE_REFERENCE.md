@@ -4,7 +4,7 @@ The single reference for this application. **Part 1** explains how to use the pr
 
 - Repo: `Domain-Application/Application_Expert_Plastic`, default branch `main`. There is **no schema repo** (no `SQL_Expert_Plastic`) and no `.sql` file in the repo (`.gitignore` lists `*.sql`), so table and column types are marked as hints or as unverified, see [2.3](#23-master-data-catalogue).
 - Last verified against commit `bc639ea` ("first commit", 2026-02-25).
-- Translation status: English only. No zh-CN copy yet.
+- Translation status: zh-CN copy in [MODULE_REFERENCE.zh-CN.md](MODULE_REFERENCE.zh-CN.md), synced 2026-10-28 (commit 908014f).
 - Rule: any change to behaviour, tables, fields, screens, reports or calculations must update this reference in the same commit.
 - The repo has no `User_Guide` and no other `docs/` file, so there are no screenshots to link; none are invented here.
 - **Cluster:** the repo shares 82% of its source file names with `Application_WangLian`, but it is an older and different code line: no e-invoice, no product grades, no split-products form, no "other invoices", no public-purchase table, and three extra areas (an I/C register with identity-card reading, camera photos through a CCTV base class, and invoices with a paid/unpaid status). Everything in this file was checked against this repo's own code; see [Differences from Application_WangLian](#differences-from-application_wanglian).
@@ -1433,7 +1433,7 @@ There is no e-invoice, QR code, e-mail or vendor API in this program. Stored pro
 | 2026-10-19 | `bc639ea` | Claude (draft for review) | First version of the module reference, single file, written from the WangLian reference and verified against this repo |
 
 - Last verified against commit `bc639ea`.
-- Translation status: English only.
+- Translation status: zh-CN written, synced 2026-10-28.
 - Repo history: one commit, `bc639ea` "first commit" (2026-02-25).
 
 ## Dormant code
@@ -1477,7 +1477,7 @@ Code that is compiled into `menu.exe` (or sits in the repo) but has no path from
 | The tables written only by the library or the accounting program (`aripay`, `arpaydat`, `apipay`, `appaydat`, `glcode`, `glgroup`, `staff`, `area`, `stype`, `status`) | Their purpose is not visible here |
 | Dormant code listed above | Not reachable from the menu |
 | Files not in `menu.dsp` (`DoSnapshot.cpp`, `PR.CPP`, `REQITEM.CPP`, `ScrollDialog.cpp`, `TRCV.CPP`, `TableContainer.cpp`) | Not compiled |
-| zh-CN translation | Not yet written |
+| zh-CN translation | Done, synced 2026-10-28 |
 | Screenshots | The repo has none and the app was not run for this document |
 
 ## Code findings
